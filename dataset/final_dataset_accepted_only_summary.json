@@ -1,0 +1,21 @@
+{
+  "source_file": "human_review_batch_013_full_reviewed_all.json",
+  "output_file": "final_dataset_accepted_only_claims_000001_001482.json",
+  "total_records_in_reviewed_file": 1482,
+  "human_review_status_counts": {
+    "accepted": 1335,
+    "edited": 143,
+    "needs_discussion": 4
+  },
+  "accepted_only_count": 1335,
+  "accepted_only_label_counts": {
+    "SUPPORTED": 469,
+    "NOT_ENOUGH_EVIDENCE": 463,
+    "REFUTED": 403
+  },
+  "excluded_statuses": {
+    "edited": 143,
+    "needs_discussion": 4
+  },
+  "note": "This output contains only records with human_review == accepted. Edited, needs_discussion, rejected, and pending records are excluded."
+}
