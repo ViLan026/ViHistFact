@@ -202,11 +202,11 @@
         "chunk_id": "019f17e1-170e-735f-bddd-ccbf16280064",
         "pages": [10],
         "raw_text": "Mậu Tuất, năm thứ 5 [203 TCN], (Sở Hạng Tịch năm thứ 4; Hán Lưu Bang năm thứ 4). Mùa thu, tháng 7, sao Chổi mọc ở khu vực sao Đại Giác.\nKỷ Hợi, năm thứ 6 [202 TCN], (Hán Cao Đế năm thứ 5). Mùa xuân, tháng 2, Hán Vương lên ngôi hoàng đế. Năm ấy Tây Sở mất.\nQuý Mão, năm thứ 10 [198 TCN], (Hán Cao Đế năm thứ 9). Vua sai hai sứ coi giữ hai quận Giao Chỉ và Cửu Chân.\nẤt Tỵ, năm thứ 12 [196 TCN], (Hán Cao Đế năm thứ 11) Nhà Hán đã định được thiên hạ, nghe tin vua cũng đã xưng vương ở nước Việt, mới sai Lục Giả sang phong vua làm Nam Việt Vương, trao cho ấn thao [5] và con so bổ đôi [6], thông sứ với nhau, bảo vua giữ yên đất Bách Việt,",
-        "claim": "Việc nhà Hán cử Lục Giả sang phong vương cho vua nước Việt đã khiến quân đội hai bên ngừng giao tranh",
-        "label": "NOT_ENOUGH_EVIDENCE",
+        "claim": "Khi sai Lục Giả sang phong vua làm Nam Việt Vương, nhà Hán không trao ấn thao.",
+        "label": "REFUTED",
         "claim_type": "MILITARY_DIPLOMACY",
         "evidence_ids": ["019f17e1-170e-735f-bddd-ccbf16280064"],
-        "explanation": "Nguồn chỉ đề cập đến việc phong vương và thông sứ, không cung cấp thông tin về tình trạng quân sự hay việc ngừng giao tranh giữa hai bên."
+        "explanation": "Đoạn nguồn ghi nhà Hán sai Lục Giả sang phong vua làm Nam Việt Vương và trao cho ấn thao."
     },
     {
         "claim_id": "claim_000025",
@@ -275,17 +275,6 @@
         "explanation": "Nguồn xác nhận có nhật thực vào ngày 30 tháng giêng năm 139 TCN nhưng không đề cập đến thời gian kéo dài của hiện tượng này."
     },
     {
-        "claim_id": "claim_000034",
-        "chunk_id": "019f17e1-2fa7-7fac-9623-41435c8b6f90",
-        "pages": [17],
-        "raw_text": "Kỷ Tỵ, năm thứ 1 [112 TCN], (Hán Nguyên Đỉnh năm thứ 5). Vua và thái hậu đã sửa soạn hành trang lễ vật quý giá để vào chầu. Bấy giờ Tể Tướng Lữ Gia tuổi đã nhiều, làm tướng trải ba triều, người trong họ làm trưởng lại đến hơn 7 chục người, con trai đều lấy con gái vua, con gái đều gả cho con em vua và người tôn thất, cùng thông gia với Tần Vương ở quận Thương Ngô, trong nước rất được lòng dân hơn cả vua.",
-        "claim": "Tể tướng Lữ Gia là một vị quan có ảnh hưởng lớn, từng phục vụ qua ba đời vua.",
-        "label": "SUPPORTED",
-        "claim_type": "PERSON_ROLE",
-        "evidence_ids": ["019f17e1-2fa7-7fac-9623-41435c8b6f90"],
-        "explanation": "Đoạn nguồn xác nhận Lữ Gia giữ chức Tể tướng và đã làm tướng trải qua ba triều đại."
-    },
-    {
         "claim_id": "claim_000036",
         "chunk_id": "019f17e1-2fa7-7fac-9623-41435c8b6f90",
         "pages": [17],
@@ -295,6 +284,17 @@
         "claim_type": "PERSON_ROLE",
         "evidence_ids": ["019f17e1-2fa7-7fac-9623-41435c8b6f90"],
         "explanation": "Nguồn chỉ nêu vua và thái hậu sửa soạn hành trang lễ vật, không đề cập đến vai trò cụ thể của Lữ Gia trong công việc này."
+    },
+    {
+        "claim_id": "claim_000034",
+        "chunk_id": "019f17e1-2fa7-7fac-9623-41435c8b6f90",
+        "pages": [17],
+        "raw_text": "Kỷ Tỵ, năm thứ 1 [112 TCN], (Hán Nguyên Đỉnh năm thứ 5). Vua và thái hậu đã sửa soạn hành trang lễ vật quý giá để vào chầu. Bấy giờ Tể Tướng Lữ Gia tuổi đã nhiều, làm tướng trải ba triều, người trong họ làm trưởng lại đến hơn 7 chục người, con trai đều lấy con gái vua, con gái đều gả cho con em vua và người tôn thất, cùng thông gia với Tần Vương ở quận Thương Ngô, trong nước rất được lòng dân hơn cả vua.",
+        "claim": "Lữ Gia chỉ làm tướng ở một triều.",
+        "label": "REFUTED",
+        "claim_type": "PERSON_ROLE",
+        "evidence_ids": ["019f17e1-2fa7-7fac-9623-41435c8b6f90"],
+        "explanation": "Đoạn nguồn ghi Lữ Gia làm tướng trải ba triều, trực tiếp bác bỏ claim cho rằng ông chỉ trải qua một triều."
     },
     {
         "claim_id": "claim_000037",
@@ -664,11 +664,11 @@
         "chunk_id": "019f17e1-77b1-7aaf-8cdc-08073a8bb994",
         "pages": [37],
         "raw_text": " Tiến sâu vào trong lòng [nước] người, nếu một đánh mà không thắng, thì đừng mong sống sót. Nay nhân lúc bọ họ vừa thua luôn mấy trận, lòng người chưa vững, mà người Di Lạo ô hợp, dễ đánh giết, chính nên cùng ra tay liều chết, cố sức đánh lấy, không có cớ gì mà dừng lại thì lỡ mất thời cơ\". Các tướng đều im lặng, không ai hưởng ứng. Đêm hôm ấy nước sông lên mạnh, dâng cao 7 thước, tràn đổ vào hồ. Bá Tiên đem quân bản bộ theo dòng nước tiến trước vào. Quân Lương đánh trống reo hò mà tiến. Vua vốn không phòng bị, vì thế quân vỡ, phải lui giữ ở trong động Khuất Lạo [7] để sửa binh đánh lại, ủy cho đại tướng là Triệu Quang Phục giữ việc nước,",
-        "claim": "Trận chiến tại động Khuất Lạo đã kéo dài hơn mười ngày trước khi Triệu Quang Phục được trao quyền chỉ huy.",
-        "label": "NOT_ENOUGH_EVIDENCE",
-        "claim_type": "TIME_EVENT",
+        "claim": "Đêm quân Lương tiến đánh, nước sông chỉ dâng cao 3 thước.",
+        "label": "REFUTED",
+        "claim_type": "NATURAL_OMEN_DISASTER",
         "evidence_ids": ["019f17e1-77b1-7aaf-8cdc-08073a8bb994"],
-        "explanation": "Nguồn sử liệu nhắc đến việc vua lui về động Khuất Lạo và ủy thác cho Triệu Quang Phục, nhưng không cung cấp thông tin về thời gian diễn ra trận chiến hay thời điểm cụ thể việc ủy thác diễn ra."
+        "explanation": "Đoạn nguồn ghi đêm hôm ấy nước sông lên mạnh, dâng cao 7 thước và tràn vào hồ, không phải chỉ cao 3 thước."
     },
     {
         "claim_id": "claim_000077",
@@ -1215,11 +1215,11 @@
         "chunk_id": "019f17e1-cf1e-7f28-8867-29377ea5e9c8",
         "pages": [61],
         "raw_text": "Mùa đông, tháng mười, Chi hậu nội nhân Đỗ Thích [1] giết vua ở sân cung. Bọn Đinh quốc công Nguyễn Bặc bắt được đem giết. Trước đó Đỗ Thích làm chức lại ở Đồng Quan, đêm nằm trên cầu, bỗng thấy sao sa rơi vào miệng, Thích cho là điềm tốt, bèn nảy ra ý định giết vua. Đến đây, nhân lúc vua ăn yến ban đêm, say rượu nằm trong sân, Thích bèn giết chết, lại giết luôn cả Nam Việt Vương Liễn.\n",
-        "claim": "Đỗ Thích giữ chức Chi hậu nội nhân trong ba năm trước khi giết Nam Việt Vương Liễn.",
-        "label": "NOT_ENOUGH_EVIDENCE",
+        "claim": "Đỗ Thích không giữ chức Chi hậu nội nhân khi giết vua và Nam Việt Vương Liễn.",
+        "label": "REFUTED",
         "claim_type": "PERSON_ROLE",
         "evidence_ids": ["019f17e1-cf1e-7f28-8867-29377ea5e9c8"],
-        "explanation": "Đoạn sử liệu xác nhận Đỗ Thích là Chi hậu nội nhân và có giết Nam Việt Vương Liễn, nhưng không nêu Đỗ Thích giữ chức Chi hậu nội nhân trong bao lâu. Vì vậy, không đủ bằng chứng để xác nhận hoặc bác bỏ chi tiết ba năm."
+        "explanation": "Đoạn nguồn gọi Đỗ Thích là Chi hậu nội nhân và ghi người này giết vua, rồi giết cả Nam Việt Vương Liễn."
     },
     {
         "claim_id": "claim_000130",
@@ -2180,11 +2180,11 @@
         "chunk_id": "019f17e2-abeb-738a-898b-c44729e3fde4",
         "pages": [118],
         "raw_text": "Kỷ Hợi, /Hội Tường Đại Khánh/ năm thứ 10 [1119], (Tống Tuyên Hòa năm thứ 1). Mùa xuân, tháng giêng, vua ngự đến Khoái Trường bắt voi trắng.\nMùa hạ, tháng 4, Đô tào là Phan Điền dâng hươu trắng.\nTháng 5, mở hội khánh thành chùa Tịnh Lự. Rồng hiện ở hàng bán nước chè ở Kinh sư.\nMùa thu, tháng 7, đóng hai chiếc thuyền Cảnh Hưng và Thanh Lan. Xuống chiếu cho các quân đóng thuyền chiến, sửa đồ binh giáp, vua muốn thân đi đánh động Ma Sa [5].\nTháng 8, ngày Giáp Thân, vua ngự điệnLinh Quang xem đua thuyền. Đặt lễ yến tiệc mùa thu. Từ đó về sau, hàng năm tháng 8 đua thuyền thì đặt yến làm lệ thường.\n",
-        "claim": "Vào mùa thu năm Hội Tường Đại Khánh thứ 10, triều đình đã cho đóng hai chiếc thuyền chiến mang tên Cảnh Hưng và Thanh Lan.",
-        "label": "SUPPORTED",
+        "claim": "Hai chiếc thuyền Cảnh Hưng và Thanh Lan được đóng vào tháng 8 năm 1119.",
+        "label": "REFUTED",
         "claim_type": "MILITARY_DIPLOMACY",
         "evidence_ids": ["019f17e2-abeb-738a-898b-c44729e3fde4"],
-        "explanation": "Đoạn nguồn chỉ ra vào mùa thu, tháng 7 năm Hội Tường Đại Khánh thứ 10 (1119), triều đình cho đóng hai chiếc thuyền Cảnh Hưng và Thanh Lan, đồng thời xuống chiếu đóng thuyền chiến. Claim đã diễn đạt lại cấu trúc câu mà vẫn giữ đúng các thông tin cốt lõi."
+        "explanation": "Đoạn nguồn ghi hai chiếc thuyền Cảnh Hưng và Thanh Lan được đóng vào mùa thu, tháng 7 năm 1119, không phải tháng 8."
     },
     {
         "claim_id": "claim_000239",
@@ -2213,11 +2213,11 @@
         "chunk_id": "019f17e2-b758-785e-a6f5-353020e70e2c",
         "pages": [122],
         "raw_text": " (Lúc ấy vua Kim là Oa Khoát Đài dựng nước ở Mạc Bắc [3], đặt niên hiệu là Thiên Hội) [4] Đinh Mùi, /Thiên Phù Khánh Thọ/ năm thứ 1 [1127], (Tống Tĩnh Khang năm thứ 2, từ tháng 5 về sau là Cao Tông Cấu, Kiến Viên năm thứ 1). Mùa xuân, tháng giêng, cho Ngự khổ thư gia là Phạm Tín làm Phán sự phủ Thanh Hóa.\nTháng 2, các quan dâng tôn hiệu gia thêm bốn chữ: Khoan Từ Thánh Thọ.\nTừ tháng giêng đến tháng 2 mưa dầm, sai quan làm lễ cầu tạnh.\n",
-        "claim": "Lễ cầu tạnh được tổ chức trong tháng 2 năm Thiên Phù Khánh Thọ thứ nhất kéo dài trong ba ngày liên tiếp.",
-        "label": "NOT_ENOUGH_EVIDENCE",
+        "claim": "Do mưa dầm từ tháng giêng đến tháng 2, sai quan làm lễ cầu mưa.",
+        "label": "REFUTED",
         "claim_type": "NATURAL_OMEN_DISASTER",
         "evidence_ids": ["019f17e2-b758-785e-a6f5-353020e70e2c"],
-        "explanation": "Nguồn xác nhận có việc sai quan làm lễ cầu tạnh do mưa dầm từ tháng giêng đến tháng 2, nhưng không nêu rõ thời lượng cụ thể của buổi lễ là ba ngày."
+        "explanation": "Đoạn nguồn ghi do mưa dầm từ tháng giêng đến tháng 2 nên sai quan làm lễ cầu tạnh, không phải cầu mưa."
     },
     {
         "claim_id": "claim_000244",
@@ -2257,22 +2257,11 @@
         "chunk_id": "019f17e2-c23a-7623-8d36-ba84b43972ae",
         "pages": [125],
         "raw_text": "Ngày Canh Tý, vua bắt đầu ngự kinh diên [nghe giảng học].\nNgày Tân Sửu, lấy Nội vũ vệ Lê Bá Ngọc làm Thái úy, thăng tước hầu; Nội nhân hỏa đầu Lưu Ba, Dương Anh Nhĩ làm Thái Phó, tước Đại liêu ban; Trung thừa Mâu Du Đô làm Gián nghị đại phu, thăng trật chư vệ; Nội nhân hỏa đầu Lý Khánh, Nguyễn Phúc, Cao y làm Thái Bảo, tước Nội thượng chế;\nNội chi hậu quản giáp Lý Sơn làm Điện tiền chỉ huy sứ, tước Đại liêu ban; Linh nhân [3] Ngô Toái làm Thượng chế; Ngự khố thư gia Từ Diên làm Viên ngoại lang. Lại ban tiền lụa cho Bá Ngọc, [Lưu] Ba và [Mâu] Du Đô đến tận nhà đem lễ vật của Nhân Tông ban cho Sùng Hiền hầu.\n",
-        "claim": "Việc ban tiền lụa cho Lê Bá Ngọc, Lưu Ba và Mâu Du Đô được thực hiện trong khoảng thời gian kéo dài một tuần.",
-        "label": "NOT_ENOUGH_EVIDENCE",
-        "claim_type": "TIME_EVENT",
-        "evidence_ids": ["019f17e2-c23a-7623-8d36-ba84b43972ae"],
-        "explanation": "Nguồn có đề cập đến việc ban tiền lụa cho các quan, nhưng không cung cấp thông tin về thời gian thực hiện kéo dài bao lâu."
-    },
-    {
-        "claim_id": "claim_000256",
-        "chunk_id": "019f17e2-d7fb-7ae4-a6d4-c09fef9c1032",
-        "pages": [129, 130],
-        "raw_text": "Tân Hợi, [Thiên Thuận] năm thứ 4 [1131], (Tống Thiệu Hưng năm thứ 1). Mùa xuân, tháng giêng, dựng hai gác ở trong điện Diên Hòa.\nTháng 2, Hoàng đệ là Tinh chết (con của Sùng Hiền hầu).\nMùa hạ, tháng 4, xuống chiếu cấm gia nô cuả các vương hầu, công chúa và các quan không được lấy con gái của các quan chức đô và bách tính.\nCấm con gái dân gian không được bắt chước kiểu búi đầu tóc như cung nhân.\nTháng 5, hạn, cầu đảo được mưa to.Chủ đô Nhiễm hoành là Hà Nhi dâng chim sẻ trắng.\nDựng nhà cho đại sư Minh Không.\n",
-        "claim": "Vào tháng 4 năm 1131, triều đình ban hành lệnh cấm gia nô của các quan lại, vương hầu kết hôn với con gái của dân thường và các quan chức.",
-        "label": "SUPPORTED",
+        "claim": "Lê Bá Ngọc, Lưu Ba và Mâu Du Đô không được ban tiền lụa.",
+        "label": "REFUTED",
         "claim_type": "POLITICAL_ADMINISTRATIVE",
-        "evidence_ids": ["019f17e2-d7fb-7ae4-a6d4-c09fef9c1032"],
-        "explanation": "Nội dung này được trích xuất và diễn đạt lại từ chiếu chỉ được nhắc đến trong đoạn nguồn vào tháng 4 năm Tân Hợi (1131)."
+        "evidence_ids": ["019f17e2-c23a-7623-8d36-ba84b43972ae"],
+        "explanation": "Đoạn nguồn ghi rõ có việc ban tiền lụa cho Lê Bá Ngọc, Lưu Ba và Mâu Du Đô, trái với nội dung claim."
     },
     {
         "claim_id": "claim_000258",
@@ -2752,17 +2741,6 @@
         "explanation": "Đoạn nguồn xác nhận sự kiện nổi dậy tại Đại Hoàng giang nhưng không cung cấp thông tin về thời điểm bắt đầu cụ thể hay thời gian kéo dài trước khi triều đình can thiệp."
     },
     {
-        "claim_id": "claim_000304",
-        "chunk_id": "019f17e3-3180-7707-935e-3537118fb365",
-        "pages": [153],
-        "raw_text": "Canh Ngọ, [Trị Bình Long Ứng] năm thứ 6 [1210], (Tống Gia Định năm thứ 3). Mùa xuân, tháng 3, vua sai Thượng phẩm phụng ngự là Đỗ Quảng đem quân đến nhà Tô Trung Từ đón Hoàng thái tử về Kinh sư, còn người con gái [Trần thị] thì về nhà cha mẹ. [Bấy giờ] trần Lý đã bị bọn giặc khác giết, con thứ là Trần Tự Khánh thay đem quân chúng về Kinh, được phong là Thuận Lưu Bá.\n",
-        "claim": "Vào mùa xuân năm 1210 Đỗ Quảng nhận lệnh dẫn quân đến đón Hoàng thái tử từ nhà Tô Trung Từ về kinh thành.",
-        "label": "SUPPORTED",
-        "claim_type": "PERSON_ROLE",
-        "evidence_ids": ["019f17e3-3180-7707-935e-3537118fb365"],
-        "explanation": "Đoạn nguồn ghi rõ tháng 3 năm 1210, vua sai Đỗ Quảng đến nhà Tô Trung Từ đón Hoàng thái tử về Kinh sư."
-    },
-    {
         "claim_id": "claim_000306",
         "chunk_id": "019f17e3-3180-7707-935e-3537118fb365",
         "pages": [153],
@@ -2773,7 +2751,17 @@
         "evidence_ids": ["019f17e3-3180-7707-935e-3537118fb365"],
         "explanation": "Nguồn có đề cập việc Trần Tự Khánh đem quân về Kinh nhưng không cung cấp số lượng quân cụ thể."
     },
-
+    {
+        "claim_id": "claim_000304",
+        "chunk_id": "019f17e3-3180-7707-935e-3537118fb365",
+        "pages": [153],
+        "raw_text": "Canh Ngọ, [Trị Bình Long Ứng] năm thứ 6 [1210], (Tống Gia Định năm thứ 3). Mùa xuân, tháng 3, vua sai Thượng phẩm phụng ngự là Đỗ Quảng đem quân đến nhà Tô Trung Từ đón Hoàng thái tử về Kinh sư, còn người con gái [Trần thị] thì về nhà cha mẹ. [Bấy giờ] trần Lý đã bị bọn giặc khác giết, con thứ là Trần Tự Khánh thay đem quân chúng về Kinh, được phong là Thuận Lưu Bá.\n",
+        "claim": "Mùa xuân, tháng 3 năm 1210, Đỗ Quảng đem quân đến nhà Tô Trung Từ để đưa Hoàng thái tử rời Kinh sư.",
+        "label": "REFUTED",
+        "claim_type": "PERSON_ROLE",
+        "evidence_ids": ["019f17e3-3180-7707-935e-3537118fb365"],
+        "explanation": "Đoạn nguồn ghi Đỗ Quảng đem quân đến nhà Tô Trung Từ để đón Hoàng thái tử về Kinh sư, trái với claim cho rằng Hoàng thái tử được đưa rời Kinh sư."
+    },
     {
         "claim_id": "claim_000214",
         "chunk_id": "019f17e2-8406-7971-84c4-02fb01049d5e",
@@ -3433,13 +3421,12 @@
         "chunk_id": "019f17e3-b0c2-7058-bea5-5df7aeefc2f9",
         "pages": [185],
         "raw_text": "Mùa thu, tháng 8, động đất 3 lần, nhiều súc vật chết .\nMùa đông, tháng 10, ngày 22, vua nhường ngôi cho hoàng thái tử Khâm.\n Khâm lên ngôi Hoàng đế, xưng là Hiếu Hoàng, tôn Thượng hoàng là Quang Nghiêu Từ Hiếu Thái Thượng Hoàng Đế , tôn Thiên Cảm hoàng hậu làm Nguyên Thánh Thiên Cảm Hoàng Thái Hậu . Bầy tôi dâng tôn hiệu là Pháp Thiên Ngực Cực Anh Liệt Vũ Thánh Minh Nhân Hoàng Đế .\n",
-        "claim": "Hoàng thái tử Khâm đã tổ chức một buổi lễ đăng quang kéo dài trong ba ngày sau khi tiếp nhận ngôi vị.",
-        "label": "NOT_ENOUGH_EVIDENCE",
+        "claim": "Vua nhường ngôi cho hoàng thái tử Khâm vào ngày 22 tháng 8.",
+        "label": "REFUTED",
         "claim_type": "TIME_EVENT",
         "evidence_ids": ["019f17e3-b0c2-7058-bea5-5df7aeefc2f9"],
-        "explanation": "Nguồn ghi nhận việc Khâm lên ngôi nhưng không đề cập đến thời gian tổ chức lễ đăng quang, đây là chi tiết mở rộng không có trong ngữ cảnh."
+        "explanation": "Đoạn nguồn ghi vua nhường ngôi cho hoàng thái tử Khâm vào mùa đông, ngày 22 tháng 10, không phải tháng 8."
     },
-
     {
         "claim_id": "claim_000372",
         "chunk_id": "019f17e3-b0d5-7ff5-b75b-3cfa061e8332",
@@ -3451,7 +3438,6 @@
         "evidence_ids": ["019f17e3-b0d5-7ff5-b75b-3cfa061e8332"],
         "explanation": "Đoạn nguồn xác nhận nhà Tống mất năm 1279 nhưng không hề đề cập đến bất kỳ phản ứng ngoại giao hay việc cử sứ giả của nhà Trần đối với sự kiện này."
     },
-
     {
         "claim_id": "claim_000374",
         "chunk_id": "019f17e3-bbb8-7fd6-8163-3215c8676bfe",
@@ -3475,17 +3461,6 @@
         "explanation": "Sử liệu ghi nhận việc phong chức cho Hưng Đạo Vương nhưng không đề cập đến kết quả các trận đánh sau đó, đây là thông tin mở rộng chưa được xác nhận trong đoạn nguồn."
     },
     {
-        "claim_id": "claim_000376",
-        "chunk_id": "019f17e3-bbbe-7b17-ab13-1defbb57d072",
-        "pages": [189],
-        "raw_text": "Giáp Thân, [Thiệu Bảo] năm thứ 6 [1284], Nguyên Chí Nguyên năm thứ 21). Mùa xuân, tháng giêng, vét sông Tô Lịch.\nTháng 2, đất ở Xã đàn [4] nứt ra, dài 7 thước, rộng 4 tấc, sâu không thể lường.\nMùa thu, tháng 8, Hưng Đạo Vương điều các quân của vương hầu, duyệt binh lớn ở Đông Bộ Đầu [5], chia các quân đóng giữ Bình Than và những nơi xung yếu khác.\nTháng 9, ngày mồng 4, mặt trăng và sao Kim mọc ban ngày ở phương Tây Nam chỉ cách nhau độ 1 thước .\nMùa đông, tháng 11, sai Trần Phủ sang hành tỉnh Kinh Hồ [6], nước Nguyên xin hoãn binh [7].\n",
-        "claim": "Vào mùa đông năm 1284, nhà Trần đã cử Trần Phủ đến hành tỉnh Kinh Hồ để xin phía Nguyên tạm hoãn việc tấn công.",
-        "label": "SUPPORTED",
-        "claim_type": "MILITARY_DIPLOMACY",
-        "evidence_ids": ["019f17e3-bbbe-7b17-ab13-1defbb57d072"],
-        "explanation": "Nguồn ghi rõ mùa đông tháng 11 năm Thiệu Bảo thứ 6 (1284), sai Trần Phủ sang hành tỉnh Kinh Hồ, nước Nguyên xin hoãn binh. Claim diễn đạt lại sự kiện này một cách chính xác."
-    },
-    {
         "claim_id": "claim_000378",
         "chunk_id": "019f17e3-bbbe-7b17-ab13-1defbb57d072",
         "pages": [189],
@@ -3495,6 +3470,17 @@
         "claim_type": "MILITARY_DIPLOMACY",
         "evidence_ids": ["019f17e3-bbbe-7b17-ab13-1defbb57d072"],
         "explanation": "Nguồn có nhắc đến sự kiện Hưng Đạo Vương duyệt binh lớn tại Đông Bộ Đầu vào tháng 8, nhưng không cung cấp con số cụ thể về quân số tham gia."
+    },
+    {
+        "claim_id": "claim_000376",
+        "chunk_id": "019f17e3-bbbe-7b17-ab13-1defbb57d072",
+        "pages": [189],
+        "raw_text": "Giáp Thân, [Thiệu Bảo] năm thứ 6 [1284], Nguyên Chí Nguyên năm thứ 21). Mùa xuân, tháng giêng, vét sông Tô Lịch.\nTháng 2, đất ở Xã đàn [4] nứt ra, dài 7 thước, rộng 4 tấc, sâu không thể lường.\nMùa thu, tháng 8, Hưng Đạo Vương điều các quân của vương hầu, duyệt binh lớn ở Đông Bộ Đầu [5], chia các quân đóng giữ Bình Than và những nơi xung yếu khác.\nTháng 9, ngày mồng 4, mặt trăng và sao Kim mọc ban ngày ở phương Tây Nam chỉ cách nhau độ 1 thước .\nMùa đông, tháng 11, sai Trần Phủ sang hành tỉnh Kinh Hồ [6], nước Nguyên xin hoãn binh [7].\n",
+        "claim": "Trần Phủ được sai sang hành tỉnh Kinh Hồ vào tháng 8 năm 1284.",
+        "label": "REFUTED",
+        "claim_type": "TIME_EVENT",
+        "evidence_ids": ["019f17e3-bbbe-7b17-ab13-1defbb57d072"],
+        "explanation": "Đoạn nguồn ghi Trần Phủ được sai sang hành tỉnh Kinh Hồ vào mùa đông, tháng 11 năm 1284, không phải tháng 8."
     },
     {
         "claim_id": "claim_000337",
@@ -4051,17 +4037,6 @@
         "explanation": "Đoạn sử liệu ghi nhận việc bổ nhiệm Trần Khắc Chung nhưng không cung cấp thông tin về nguyên nhân hay các đóng góp quân sự của ông."
     },
     {
-        "claim_id": "claim_000433",
-        "chunk_id": "019f17e4-1d4a-7de1-b99d-60dd1a7f80bf",
-        "pages": [218],
-        "raw_text": "Tháng 3, nước La Hồi [2] sai người dâng vải liễn la và các thứ khác.\nLấy Trần Thì Kiến làm Tả bộc xạ.\nBấy giờ có viên độc bạ là Trần Cụ tính khoan hậu, cẩn thận, thật thà, giỏi ngề đánh cá, bắn nỏ và chơi cầu. Vua sai dạy thái tử các nghề ấy.\nCụ mỗi khi sắp đánh đàn, thì trước hết cắt đầu dây, buộc lại cho chặt dây rồi sau mới gảy. Có người hỏi cớ làm sao, Cụ trả lời: \"Nếu khúc đàn chưa hết mà dây đứt thì làm thế nào?\".\nCụ làm cầu thì cân nhắc các múi da, cho mười hai múi cân nhau, duy ba múi ở miệng cầu lỗ là chỗ bỏ cái bong lợn vào thì hơi mỏng và nhẹ,",
-        "claim": "Trần Thì Kiến được triều đình bổ nhiệm giữ chức vụ Tả bộc xạ.",
-        "label": "SUPPORTED",
-        "claim_type": "PERSON_ROLE",
-        "evidence_ids": ["019f17e4-1d4a-7de1-b99d-60dd1a7f80bf"],
-        "explanation": "Đoạn nguồn ghi rõ việc lấy Trần Thì Kiến làm Tả bộc xạ, claim đã diễn đạt lại hành động bổ nhiệm này."
-    },
-    {
         "claim_id": "claim_000435",
         "chunk_id": "019f17e4-1d4a-7de1-b99d-60dd1a7f80bf",
         "pages": [218],
@@ -4071,6 +4046,17 @@
         "claim_type": "PERSON_ROLE",
         "evidence_ids": ["019f17e4-1d4a-7de1-b99d-60dd1a7f80bf"],
         "explanation": "Nguồn xác nhận Trần Cụ là viên độc bạ, nhưng không đề cập đến thời gian ông tại vị là mười năm."
+    },
+    {
+        "claim_id": "claim_000433",
+        "chunk_id": "019f17e4-1d4a-7de1-b99d-60dd1a7f80bf",
+        "pages": [218],
+        "raw_text": "Tháng 3, nước La Hồi [2] sai người dâng vải liễn la và các thứ khác.\nLấy Trần Thì Kiến làm Tả bộc xạ.\nBấy giờ có viên độc bạ là Trần Cụ tính khoan hậu, cẩn thận, thật thà, giỏi ngề đánh cá, bắn nỏ và chơi cầu. Vua sai dạy thái tử các nghề ấy.\nCụ mỗi khi sắp đánh đàn, thì trước hết cắt đầu dây, buộc lại cho chặt dây rồi sau mới gảy. Có người hỏi cớ làm sao, Cụ trả lời: \"Nếu khúc đàn chưa hết mà dây đứt thì làm thế nào?\".\nCụ làm cầu thì cân nhắc các múi da, cho mười hai múi cân nhau, duy ba múi ở miệng cầu lỗ là chỗ bỏ cái bong lợn vào thì hơi mỏng và nhẹ,",
+        "claim": "Trần Cụ được làm Tả bộc xạ.",
+        "label": "REFUTED",
+        "claim_type": "PERSON_ROLE",
+        "evidence_ids": ["019f17e4-1d4a-7de1-b99d-60dd1a7f80bf"],
+        "explanation": "Đoạn nguồn ghi Trần Thì Kiến được lấy làm Tả bộc xạ, còn Trần Cụ được giới thiệu là một viên độc bạ."
     },
     {
         "claim_id": "claim_000436",
@@ -4394,18 +4380,6 @@
         "evidence_ids": ["019f17e4-53b0-76e7-81cf-a717972fedfd"],
         "explanation": "Nguồn ghi sét đánh làm sụt mất 2 tầng góc bên đông, trong khi claim khẳng định hư hại toàn bộ các tầng, chi tiết này mâu thuẫn với nguồn."
     },
-    {
-        "claim_id": "claim_000466",
-        "chunk_id": "019f17e4-53b5-7613-a466-2b8d88adc2fb",
-        "pages": [232],
-        "raw_text": "Quý Hợi, [Đại Khánh] năm thứ 10 [1323], (Nguyên Chí Trị năm thứ 3). Mùa xuân, tháng 8, ngày 22, vua ngự đến nhà Thái học. Có tên Mặc trong quân Thiên thuộc ở Hoàng Giang đỗ khoa thi Thái học sinh, vua xuống chiếu bắt trở lại quân ngũ, làm quân lại quân Thiên đinh, đến khi thi đánh gậy, [Mặc] lại đỗ cao.\nBấy giờ tuyển chọn các quân, lấy người béo trắng làm hạng trên, cho nên quân sĩ không xăm mình nữa là bắt đầu từ đấy.\n",
-        "claim": "Vào năm 1323, triều đình bắt đầu chính sách không xăm mình đối với quân sĩ thông qua việc ưu tiên tuyển chọn những người có ngoại hình béo trắng.",
-        "label": "SUPPORTED",
-        "claim_type": "POLITICAL_ADMINISTRATIVE",
-        "evidence_ids": ["019f17e4-53b5-7613-a466-2b8d88adc2fb"],
-        "explanation": "Nguồn ghi rõ vào năm 1323, việc tuyển chọn người béo trắng làm hạng trên dẫn đến việc quân sĩ không xăm mình nữa."
-    },
-
     {
         "claim_id": "claim_000468",
         "chunk_id": "019f17e4-53b5-7613-a466-2b8d88adc2fb",
@@ -5448,7 +5422,6 @@
         "evidence_ids": ["019f17e5-0ea0-720e-92cc-ec3033c77c55"],
         "explanation": "Sử liệu chỉ ghi Ngạc trốn ra trang Nam Định vào tháng 6, nhưng không cung cấp thông tin về khoảng thời gian cụ thể Ngạc đã ẩn náu tại đó trước khi bị truy bắt."
     },
-
     {
         "claim_id": "claim_000573",
         "chunk_id": "019f17e5-190b-714e-a7e6-1da85d0e797e",
@@ -5459,6 +5432,17 @@
         "claim_type": "POLITICAL_ADMINISTRATIVE",
         "evidence_ids": ["019f17e5-190b-714e-a7e6-1da85d0e797e"],
         "explanation": "Nguồn chỉ ghi việc ban tranh, không đề cập đến kết quả hay tác động của hành động này đối với tình hình chính trị của triều đình trong năm đó."
+    },
+    {
+        "claim_id": "claim_000571",
+        "chunk_id": "019f17e5-190b-714e-a7e6-1da85d0e797e",
+        "pages": [287],
+        "raw_text": "Giáp Tuất, [Quang Thái] năm thứ 7 [1394], (Minh Hồng Vũ năm thứ 27). Mùa xuân, tháng giêng, thuyền buôn nước Chà Bà [2] tới dâng ngựa lạ.\nTháng 2, Thượng hoàng sai thợ vẽ tranh Chu Công giúp Thàng Vương [3], Hoắc Quang giúp Chiếu Đế [4], Gia Cát giúp Thục Hậu chúa [5], Tô Hiến Thành giúp Lý Cao Tông [6], gọi là tranh \"Tứ phụ\"7, ban cho Quý Ly, để giúp quan gia [8] cũng nên như thế.\n",
+        "claim": "Tranh \"Tứ phụ\" được ban cho Quý Ly vào tháng giêng năm 1394.",
+        "label": "REFUTED",
+        "claim_type": "PERSON_ROLE",
+        "evidence_ids": ["019f17e5-190b-714e-a7e6-1da85d0e797e"],
+        "explanation": "Đoạn nguồn ghi tranh \"Tứ phụ\" được ban cho Quý Ly vào tháng 2 năm 1394, không phải tháng giêng."
     },
     {
         "claim_id": "claim_000574",
@@ -6242,17 +6226,17 @@
         "claim_type": "PERSON_ROLE",
         "evidence_ids": ["019f17e5-9fbb-76ff-a69a-92135135b5cd"],
         "explanation": "Nguồn xác nhận năm 1417 (Đinh Dậu), vua Minh gọi Trương Phụ về và sai Phong Thành hầu Lý Bân sang thay thế trấn giữ Giao Chỉ."
-    },
+    }, 
     {
         "claim_id": "claim_000648",
         "chunk_id": "019f17e5-9fbb-76ff-a69a-92135135b5cd",
         "pages": [323, 324],
         "raw_text": "Đinh Dậu, [1417], (Minh Vĩnh Lạc năm thứ 15). Nội quan nhà Minh là Mã Kỳ tâu rằng Tổng binh Trương Phụ ở Giao Chỉ chọn lấy những thổ nhân mạnh khỏe can đảm làm vi tử thủ [3], vua Minh nghingờ, gọi Phụ về, sai Phong Thành hầu Lý Bân với chức Tổng binh Chinh Di tướng quân sang thay Phụ trấn giữ.\nNhà Minh sai Giám sát ngự sử chia giữ việc tuần xét bắt đầu từ đấy.\nBinh bộ thượng thư nhà Minh là Trần Hiệp, lại giúp việc quân chính cho Tổng binh.\n",
-        "claim": "Việc bổ nhiệm Trần Hiệp làm Binh bộ thượng thư kiêm giúp việc quân chính đã giúp ổn định tình hình quân sự tại Giao Chỉ trong vòng hai năm.",
-        "label": "NOT_ENOUGH_EVIDENCE",
+        "claim": "Trần Hiệp được sai sang thay Trương Phụ giữ chức Tổng binh Chinh Di tướng quân.",
+        "label": "REFUTED",
         "claim_type": "MILITARY_DIPLOMACY",
         "evidence_ids": ["019f17e5-9fbb-76ff-a69a-92135135b5cd"],
-        "explanation": "Nguồn có nhắc đến việc Trần Hiệp được cử sang giúp việc quân chính, nhưng không đề cập đến hiệu quả ổn định tình hình hay thời gian kéo dài hai năm."
+        "explanation": "Đoạn nguồn ghi Lý Bân được sai sang thay Trương Phụ giữ chức Tổng binh Chinh Di tướng quân; Trần Hiệp làm Binh bộ thượng thư và giúp việc quân chính cho Tổng binh."
     },
     {
         "claim_id": "claim_000649",
@@ -6465,17 +6449,7 @@
         "evidence_ids": ["019f17e4-f93f-711c-b8fc-b9d824afa378"],
         "explanation": "Đoạn sử liệu có nhắc đến việc đón Chiêu Định vào nối đại thống và việc giáng con của vua làm Thuận Đức Vương. Tuy nhiên, đoạn này không nêu rõ hai sự kiện đó diễn ra cùng một ngày, nên không đủ bằng chứng để xác nhận hoặc bác bỏ chi tiết này."
     },
-    {
-        "claim_id": "claim_000571",
-        "chunk_id": "019f17e5-190b-714e-a7e6-1da85d0e797e",
-        "pages": [287],
-        "raw_text": "Giáp Tuất, [Quang Thái] năm thứ 7 [1394], (Minh Hồng Vũ năm thứ 27). Mùa xuân, tháng giêng, thuyền buôn nước Chà Bà [2] tới dâng ngựa lạ.\nTháng 2, Thượng hoàng sai thợ vẽ tranh Chu Công giúp Thàng Vương [3], Hoắc Quang giúp Chiếu Đế [4], Gia Cát giúp Thục Hậu chúa [5], Tô Hiến Thành giúp Lý Cao Tông [6], gọi là tranh \"Tứ phụ\"7, ban cho Quý Ly, để giúp quan gia [8] cũng nên như thế.\n",
-        "claim": "Tháng 2 năm 1394, tranh \"Tứ phụ\" được ban cho Quý Ly với ý nhắc Quý Ly giúp quan gia noi theo các nhân vật phụ chính được vẽ trong tranh.",
-        "label": "SUPPORTED",
-        "claim_type": "PERSON_ROLE",
-        "evidence_ids": ["019f17e5-190b-714e-a7e6-1da85d0e797e"],
-        "explanation": "Đoạn sử liệu ghi tháng 2 năm 1394, Thượng hoàng sai thợ vẽ tranh Chu Công, Hoắc Quang, Gia Cát và Tô Hiến Thành giúp các vua đời trước, gọi là tranh \"Tứ phụ\", rồi ban cho Quý Ly để giúp quan gia cũng nên như thế."
-    },
+
     {
         "claim_id": "claim_000583",
         "chunk_id": "019f17e5-2f24-7a27-8edb-a7cd668973f9",
@@ -6510,17 +6484,6 @@
         "explanation": "Đoạn sử liệu ghi năm Mậu Tý, Hưng Khánh năm thứ hai [1408], mùa hạ tháng 4, Đặng Tất rước vua trở về Nghệ An."
     },
     {
-        "claim_id": "claim_000670",
-        "chunk_id": "019f17e5-c15d-78eb-9912-354cf9618cb9",
-        "pages": [335],
-        "raw_text": "Mùa hạ, tháng 4, Tham tướng nhà Minh là An Bình bá Lý An đem thủy quân từ thành Đông Quan đến cứu. Vua đoán là Trần Trí bị cùng quẫn lâu ngày, thấy quân cứu viện đến, tất mở cửa thành ra đánh, bèn dời quân tới đóng ở huyện Đỗ Gia, đào cửa sông, phục quân trên bờ sông đợi quân giặc đến để đánh.\nNgày 17, bọn Trí đem hết quân ra đánh trại Lê Thiệt. Đợi quân của Trí sang một nửa, quân mai phục liền nổi dậy đánh tan, chém hơn ngàn thủ cấp giặc, bọn chết đuối cũng rất nhiều.",
-        "claim": "Vào tháng 4 mùa hạ, Lý An đã chỉ huy thủy quân từ thành Đông Quan đi cứu viện cho quân Minh.",
-        "label": "SUPPORTED",
-        "claim_type": "MILITARY_DIPLOMACY",
-        "evidence_ids": ["019f17e5-c15d-78eb-9912-354cf9618cb9"],
-        "explanation": "Đoạn nguồn ghi rõ tháng 4 mùa hạ, Tham tướng Lý An đem thủy quân từ Đông Quan đến cứu, claim đã diễn đạt lại thông tin này một cách chính xác."
-    },
-    {
         "claim_id": "claim_000672",
         "chunk_id": "019f17e5-c15d-78eb-9912-354cf9618cb9",
         "pages": [335],
@@ -6530,6 +6493,17 @@
         "claim_type": "TIME_EVENT",
         "evidence_ids": ["019f17e5-c15d-78eb-9912-354cf9618cb9"],
         "explanation": "Nguồn có nhắc đến việc dời quân đến đóng ở huyện Đỗ Gia và phục quân đợi giặc, nhưng không cung cấp thông tin cụ thể về thời gian phục kích kéo dài bao lâu trước khi trận đánh xảy ra."
+    },
+    {
+        "claim_id": "claim_000670",
+        "chunk_id": "019f17e5-c15d-78eb-9912-354cf9618cb9",
+        "pages": [335],
+        "raw_text": "Mùa hạ, tháng 4, Tham tướng nhà Minh là An Bình bá Lý An đem thủy quân từ thành Đông Quan đến cứu. Vua đoán là Trần Trí bị cùng quẫn lâu ngày, thấy quân cứu viện đến, tất mở cửa thành ra đánh, bèn dời quân tới đóng ở huyện Đỗ Gia, đào cửa sông, phục quân trên bờ sông đợi quân giặc đến để đánh.\nNgày 17, bọn Trí đem hết quân ra đánh trại Lê Thiệt. Đợi quân của Trí sang một nửa, quân mai phục liền nổi dậy đánh tan, chém hơn ngàn thủ cấp giặc, bọn chết đuối cũng rất nhiều.",
+        "claim": "Mùa hạ, tháng 4, Lý An không đem thủy quân từ thành Đông Quan đến cứu.",
+        "label": "REFUTED",
+        "claim_type": "MILITARY_DIPLOMACY",
+        "evidence_ids": ["019f17e5-c15d-78eb-9912-354cf9618cb9"],
+        "explanation": "Đoạn nguồn ghi rõ mùa hạ, tháng 4, Lý An đem thủy quân từ thành Đông Quan đến cứu."
     },
     {
         "claim_id": "claim_000673",
@@ -6547,11 +6521,11 @@
         "chunk_id": "019f17e5-ccd3-72e7-b518-4ad7bdbbc578",
         "pages": [338],
         "raw_text": "Mùa đông, tháng 10, nhà Minh sai bọn Tổng binh Thành Sơn hầu Vương Thông và Tham tướng Mã Anh đem 5 vạn quân, 5 nghìn ngựa chia đường sang cứu viện các thành Đồng Đô. Một vạn quân Vân Nam tiến trước, thẳng đến Tam Giang [4], thuận dòng mà xuống. Bọn Lê Khả nghe tin giặc đến, từ Ninh Kiều hành quân cấp tốc, gặp giặc ở cầu Xa Lộc, đón đánh bại quân giặc.\n",
-        "claim": "Trận đánh tại cầu Xa Lộc giữa quân của Lê Khả và quân Minh kéo dài trong hai ngày đêm trước khi quân địch bị đánh bại.",
-        "label": "NOT_ENOUGH_EVIDENCE",
+        "claim": "Lê Khả bị quân Minh đánh bại tại cầu Xa Lộc.",
+        "label": "REFUTED",
         "claim_type": "MILITARY_DIPLOMACY",
         "evidence_ids": ["019f17e5-ccd3-72e7-b518-4ad7bdbbc578"],
-        "explanation": "Nguồn xác nhận sự kiện Lê Khả đánh bại quân giặc tại cầu Xa Lộc nhưng không đề cập đến thời gian diễn ra trận đánh, do đó không đủ thông tin để kết luận về độ dài hai ngày đêm."
+        "explanation": "Đoạn nguồn ghi Lê Khả gặp quân Minh ở cầu Xa Lộc và đón đánh bại quân giặc."
     },
     {
         "claim_id": "claim_000676",
@@ -6776,17 +6750,27 @@
         "evidence_ids": ["019f17e6-03a2-7347-a450-c293df636f7a"],
         "explanation": "Nguồn ghi rõ Vương Thông ngã ngựa nhưng chỉ 'suýt nữa bị bắt', không phải đã bị bắt sống."
     },
-
+    {
+        "claim_id": "claim_000703",
+        "chunk_id": "019f17e6-03e5-7897-a63e-818c072a0e73",
+        "pages": [353],
+        "raw_text": "Ngày 29, sai sứ sang trình bày với nhà Minh.\nTrước đó, vua đã lập Trần Cảo. Hồi tháng 8, đã sai sứ sang cầu phong.\nĐế đây, lấy Hàn lâm đãi chế Lê Thiếu Dĩnh (người làng Khả Mộ, nay là Mộ Trạch, huyện Đường An), Chủ thư sứ Lê Cảnh Quang đều làm Thẩm hình viện sứ. Quốc tử bác sĩ Lê Đức Huy, Kim ngô vị tướng quân Đặng Hiếu Lộc làm Thẩm hình viện phó sứ (bốn người này đều là đầu mục),",
+        "claim": "Lê Thiếu Dĩnh và Lê Cảnh Quang được bổ nhiệm làm Thẩm hình viện sứ.",
+        "label": "SUPPORTED",
+        "claim_type": "PERSON_ROLE",
+        "evidence_ids": ["019f17e6-03e5-7897-a63e-818c072a0e73"],
+        "explanation": "Đoạn sử liệu ghi Hàn lâm đãi chế Lê Thiếu Dĩnh và Chủ thư sứ Lê Cảnh Quang đều được lấy làm Thẩm hình viện sứ."
+    },
     {
         "claim_id": "claim_000705",
         "chunk_id": "019f17e6-03e5-7897-a63e-818c072a0e73",
         "pages": [353],
         "raw_text": "Ngày 29, sai sứ sang trình bày với nhà Minh.\nTrước đó, vua đã lập Trần Cảo. Hồi tháng 8, đã sai sứ sang cầu phong.\nĐế đây, lấy Hàn lâm đãi chế Lê Thiếu Dĩnh (người làng Khả Mộ, nay là Mộ Trạch, huyện Đường An), Chủ thư sứ Lê Cảnh Quang đều làm Thẩm hình viện sứ. Quốc tử bác sĩ Lê Đức Huy, Kim ngô vị tướng quân Đặng Hiếu Lộc làm Thẩm hình viện phó sứ (bốn người này đều là đầu mục),",
-        "claim": "Việc bổ nhiệm các chức vụ tại Thẩm hình viện được thực hiện nhằm mục đích cải cách hệ thống tư pháp đương thời.",
-        "label": "NOT_ENOUGH_EVIDENCE",
+        "claim": "Lê Thiếu Dĩnh và Lê Cảnh Quang được làm Thẩm hình viện phó sứ.",
+        "label": "REFUTED",
         "claim_type": "POLITICAL_ADMINISTRATIVE",
         "evidence_ids": ["019f17e6-03e5-7897-a63e-818c072a0e73"],
-        "explanation": "Đoạn nguồn xác nhận việc bổ nhiệm các nhân sự vào Thẩm hình viện, nhưng không đề cập đến mục đích cải cách tư pháp, đây là thông tin mở rộng chưa được kiểm chứng trong đoạn văn."
+        "explanation": "Đoạn nguồn ghi Lê Thiếu Dĩnh và Lê Cảnh Quang được làm Thẩm hình viện sứ; Lê Đức Huy và Đặng Hiếu Lộc mới được làm Thẩm hình viện phó sứ."
     },
     {
         "claim_id": "claim_000642",
@@ -6975,17 +6959,6 @@
         "claim_type": "TIME_EVENT",
         "evidence_ids": ["019f17e6-03a2-7347-a450-c293df636f7a"],
         "explanation": "Đoạn sử liệu có nhắc đến việc Vương Thông xin giảng hòa và việc đắp lũy từ phường Yên Hoa đến cửa Bắc thành chỉ trong một đêm. Tuy nhiên, đoạn này không xác nhận hai sự kiện diễn ra cùng một ngày, nên không đủ bằng chứng để xác nhận hoặc bác bỏ claim."
-    },
-    {
-        "claim_id": "claim_000703",
-        "chunk_id": "019f17e6-03e5-7897-a63e-818c072a0e73",
-        "pages": [353],
-        "raw_text": "Ngày 29, sai sứ sang trình bày với nhà Minh.\nTrước đó, vua đã lập Trần Cảo. Hồi tháng 8, đã sai sứ sang cầu phong.\nĐế đây, lấy Hàn lâm đãi chế Lê Thiếu Dĩnh (người làng Khả Mộ, nay là Mộ Trạch, huyện Đường An), Chủ thư sứ Lê Cảnh Quang đều làm Thẩm hình viện sứ. Quốc tử bác sĩ Lê Đức Huy, Kim ngô vị tướng quân Đặng Hiếu Lộc làm Thẩm hình viện phó sứ (bốn người này đều là đầu mục),",
-        "claim": "Lê Thiếu Dĩnh và Lê Cảnh Quang được bổ nhiệm làm Thẩm hình viện sứ.",
-        "label": "SUPPORTED",
-        "claim_type": "PERSON_ROLE",
-        "evidence_ids": ["019f17e6-03e5-7897-a63e-818c072a0e73"],
-        "explanation": "Đoạn sử liệu ghi Hàn lâm đãi chế Lê Thiếu Dĩnh và Chủ thư sứ Lê Cảnh Quang đều được lấy làm Thẩm hình viện sứ."
     },
     {
         "claim_id": "claim_000706",
@@ -7242,17 +7215,6 @@
         "explanation": "Đoạn sử liệu ghi người con gái bị lạc lúc 9 tuổi, được Mã Kỳ đem về nuôi rồi đưa về Yên Kinh làm cung tỳ; sau đó có việc sai sứ sang xin về. Tuy nhiên, đoạn này không cho biết người con gái ấy có được trả về hay không, nên không đủ bằng chứng để xác nhận hoặc bác bỏ claim."
     },
     {
-        "claim_id": "claim_000730",
-        "chunk_id": "019f17e6-2f44-7918-b0b6-febcfabb8233",
-        "pages": [364],
-        "raw_text": "Ngày 24, giết bọn giặc phản nghịch tên là Phong, tên Nhữ Hốt, tên An Vinh, tên Trung, tên Tồn, tên Sĩ Văn, tên Sùng Lễ, tên Xác.\nTrước kia, bọn Phương đón hàng giặc Minh, giúp giặc làm điều bạo ngược, chống lại quan quân. Đến khi giặc Minh bị dẹp mới ra đầu hàng, được vua tha tội cho. Nhưng bọn Phong vẫn gây nhiều tội ác không chịu chừa, lại âm mưu làm loạn, ngấm ngầm kết bè đảng, viết thư mật, ngầm sai người điđường tắt tới xui quân Minh gây sự, bọn chúng sẽ làm nội ứng. Người mang thư bị Thượng tướng Thái Nguyên là Hoàng Nguyên Ý bắt được. Vua giết tên đưa thư rồi giấu chuyện ấy đi.",
-        "claim": "Ngày 24, các nhân vật Phong, Nhữ Hốt, An Vinh, Trung, Tồn, Sĩ Văn, Sùng Lễ và Xác bị giết vì bị coi là giặc phản nghịch.",
-        "label": "SUPPORTED",
-        "claim_type": "PERSON_ROLE",
-        "evidence_ids": ["019f17e6-2f44-7918-b0b6-febcfabb8233"],
-        "explanation": "Đoạn sử liệu ghi ngày 24 có việc giết bọn giặc phản nghịch gồm Phong, Nhữ Hốt, An Vinh, Trung, Tồn, Sĩ Văn, Sùng Lễ và Xác."
-    },
-    {
         "claim_id": "claim_000732",
         "chunk_id": "019f17e6-2f44-7918-b0b6-febcfabb8233",
         "pages": [364],
@@ -7262,6 +7224,17 @@
         "claim_type": "TIME_EVENT",
         "evidence_ids": ["019f17e6-2f44-7918-b0b6-febcfabb8233"],
         "explanation": "Đoạn sử liệu ghi người mang thư mật của bọn Phong bị Thượng tướng Thái Nguyên Hoàng Nguyên Ý bắt được, sau đó tên đưa thư bị giết và chuyện ấy được giấu đi. Tuy nhiên, đoạn này không nêu sự việc bị giấu trong bao lâu, nên không đủ bằng chứng để xác nhận hoặc bác bỏ chi tiết một tuần."
+    },
+    {
+        "claim_id": "claim_000730",
+        "chunk_id": "019f17e6-2f44-7918-b0b6-febcfabb8233",
+        "pages": [364],
+        "raw_text": "Ngày 24, giết bọn giặc phản nghịch tên là Phong, tên Nhữ Hốt, tên An Vinh, tên Trung, tên Tồn, tên Sĩ Văn, tên Sùng Lễ, tên Xác.\nTrước kia, bọn Phương đón hàng giặc Minh, giúp giặc làm điều bạo ngược, chống lại quan quân. Đến khi giặc Minh bị dẹp mới ra đầu hàng, được vua tha tội cho. Nhưng bọn Phong vẫn gây nhiều tội ác không chịu chừa, lại âm mưu làm loạn, ngấm ngầm kết bè đảng, viết thư mật, ngầm sai người điđường tắt tới xui quân Minh gây sự, bọn chúng sẽ làm nội ứng. Người mang thư bị Thượng tướng Thái Nguyên là Hoàng Nguyên Ý bắt được. Vua giết tên đưa thư rồi giấu chuyện ấy đi.",
+        "claim": "Ngày 24, Phong, Nhữ Hốt, An Vinh, Trung, Tồn, Sĩ Văn, Sùng Lễ và Xác được tha tội và cho về.",
+        "label": "REFUTED",
+        "claim_type": "PERSON_ROLE",
+        "evidence_ids": ["019f17e6-2f44-7918-b0b6-febcfabb8233"],
+        "explanation": "Đoạn nguồn ghi ngày 24 những người gồm Phong, Nhữ Hốt, An Vinh, Trung, Tồn, Sĩ Văn, Sùng Lễ và Xác bị giết vì là giặc phản nghịch, không phải được tha tội."
     },
     {
         "claim_id": "claim_000748",
@@ -7386,17 +7359,6 @@
         "explanation": "Nguồn xác nhận sự kiện Nữu Tại tấn công Bàn nhà Côn Cô nhưng không cung cấp thông tin về thời gian diễ ra cuộc xung đột này."
     },
     {
-        "claim_id": "claim_000763",
-        "chunk_id": "019f17e6-6780-7792-880b-bdc4d029c472",
-        "pages": [382],
-        "raw_text": "Mùa đông, tháng 10, có sâu hại lúa. Sai quan chia nhau đi các nơi khám xét lúa đồng.\nLấy bọn Đồng tri Nam Sách hạ vệ Lê Thọ làm An Bang trấn vệ đồng tổng tri chư quân sự; Thẩm hình viện phó sứ Trình Tử Dục làm Tuyên phủ sứ thượng bạn trấn Thái Nguyên.\nNgày 12, Đạo Lại là con đứa phản nghịch Đinh Quế ở Mường Phù về thú tội, có chỉ tha tội cho về.\nLấy Thái tử thị giảng cũ là Nguyễn Tấn Tài làm Quốc tử giám bác sĩ.\n",
-        "claim": "Vào tháng 10 mùa đông, triều đình đã cử quan lại đi kiểm tra tình hình lúa tại các địa phương do có hiện tượng sâu bệnh.",
-        "label": "SUPPORTED",
-        "claim_type": "NATURAL_OMEN_DISASTER",
-        "evidence_ids": ["019f17e6-6780-7792-880b-bdc4d029c472"],
-        "explanation": "Claim diễn đạt lại thông tin từ nguồn về việc có sâu hại lúa và việc sai quan đi khám xét lúa đồng vào tháng 10 mùa đông."
-    },
-    {
         "claim_id": "claim_000765",
         "chunk_id": "019f17e6-6780-7792-880b-bdc4d029c472",
         "pages": [382],
@@ -7406,6 +7368,17 @@
         "claim_type": "PERSON_ROLE",
         "evidence_ids": ["019f17e6-6780-7792-880b-bdc4d029c472"],
         "explanation": "Nguồn xác nhận Nguyễn Tấn Tài là Thái tử thị giảng cũ được bổ nhiệm làm Quốc tử giám bác sĩ, nhưng không cung cấp thông tin về thời điểm ông kết thúc nhiệm vụ giảng dạy so với thời điểm được bổ nhiệm."
+    },
+    {
+        "claim_id": "claim_000763",
+        "chunk_id": "019f17e6-6780-7792-880b-bdc4d029c472",
+        "pages": [382],
+        "raw_text": "Mùa đông, tháng 10, có sâu hại lúa. Sai quan chia nhau đi các nơi khám xét lúa đồng.\nLấy bọn Đồng tri Nam Sách hạ vệ Lê Thọ làm An Bang trấn vệ đồng tổng tri chư quân sự; Thẩm hình viện phó sứ Trình Tử Dục làm Tuyên phủ sứ thượng bạn trấn Thái Nguyên.\nNgày 12, Đạo Lại là con đứa phản nghịch Đinh Quế ở Mường Phù về thú tội, có chỉ tha tội cho về.\nLấy Thái tử thị giảng cũ là Nguyễn Tấn Tài làm Quốc tử giám bác sĩ.\n",
+        "claim": "Việc sai quan chia nhau đi khám xét lúa đồng diễn ra vào tháng 11 mùa đông.",
+        "label": "REFUTED",
+        "claim_type": "NATURAL_OMEN_DISASTER",
+        "evidence_ids": ["019f17e6-6780-7792-880b-bdc4d029c472"],
+        "explanation": "Đoạn nguồn ghi việc sai quan đi khám xét lúa đồng diễn ra vào mùa đông, tháng 10, sau khi có sâu hại lúa, không phải tháng 11."
     },
     {
         "claim_id": "claim_000767",
@@ -8098,17 +8071,6 @@
         "explanation": "Nguồn sử liệu ghi rõ Lê Lan giữ chức vụ này được hơn 1 năm thì chết, mâu thuẫn với thông tin 5 năm trong claim."
     },
     {
-        "claim_id": "claim_000841",
-        "chunk_id": "019f17e6-fa3b-76f5-8543-3ad68f9e5a33",
-        "pages": [422],
-        "raw_text": "Mùa thu, tháng 7, ngày 26, giết Thái úy Lê Khả và con là Lê Quát, Tư khấu Trịnh Khắc Phục và con là Phò mã đô úy Trịnh Bá Nhai.\nMùa đông, tháng 10, nhà Minh sai chánh sứ là Hành nhân ty hành nhân Biên Vĩnh, phó sứ là tiến sĩ Trịnh Huệ sang báo tin [Cảnh Thái ] lên ngôi.\nTrước đây, Minh Anh Tông đi đánh phương Bắc đã bị Dã Tiên bắt được, em là Thành Vương Kỳ Ngục coi việc nước rồi tự lập làm vua, đổi niên hiệu là Cảnh Thái, cho nên sai bọn Biên Vĩnh sang báo.\n",
-        "claim": "Vào tháng 10 mùa đông, nhà Minh đã cử Biên Vĩnh và Trịnh Huệ đến thông báo về việc vua mới lên ngôi.",
-        "label": "SUPPORTED",
-        "claim_type": "MILITARY_DIPLOMACY",
-        "evidence_ids": ["019f17e6-fa3b-76f5-8543-3ad68f9e5a33"],
-        "explanation": "Đoạn sử liệu xác nhận tháng 10 mùa đông, nhà Minh cử Biên Vĩnh và Trịnh Huệ sang báo tin Cảnh Thái lên ngôi."
-    },
-    {
         "claim_id": "claim_000843",
         "chunk_id": "019f17e6-fa3b-76f5-8543-3ad68f9e5a33",
         "pages": [422],
@@ -8118,6 +8080,17 @@
         "claim_type": "TIME_EVENT",
         "evidence_ids": ["019f17e6-fa3b-76f5-8543-3ad68f9e5a33"],
         "explanation": "Nguồn có nhắc đến sự kiện Minh Anh Tông bị bắt và Thành Vương Kỳ Ngục lên ngôi, nhưng không cung cấp thông tin về khoảng thời gian cụ thể giữa hai sự kiện này."
+    },
+    {
+        "claim_id": "claim_000841",
+        "chunk_id": "019f17e6-fa3b-76f5-8543-3ad68f9e5a33",
+        "pages": [422],
+        "raw_text": "Mùa thu, tháng 7, ngày 26, giết Thái úy Lê Khả và con là Lê Quát, Tư khấu Trịnh Khắc Phục và con là Phò mã đô úy Trịnh Bá Nhai.\nMùa đông, tháng 10, nhà Minh sai chánh sứ là Hành nhân ty hành nhân Biên Vĩnh, phó sứ là tiến sĩ Trịnh Huệ sang báo tin [Cảnh Thái ] lên ngôi.\nTrước đây, Minh Anh Tông đi đánh phương Bắc đã bị Dã Tiên bắt được, em là Thành Vương Kỳ Ngục coi việc nước rồi tự lập làm vua, đổi niên hiệu là Cảnh Thái, cho nên sai bọn Biên Vĩnh sang báo.\n",
+        "claim": "Mùa đông, tháng 10, Biên Vĩnh và Trịnh Huệ sang báo tin Minh Anh Tông lên ngôi.",
+        "label": "REFUTED",
+        "claim_type": "MILITARY_DIPLOMACY",
+        "evidence_ids": ["019f17e6-fa3b-76f5-8543-3ad68f9e5a33"],
+        "explanation": "Đoạn nguồn ghi Biên Vĩnh và Trịnh Huệ sang báo tin Cảnh Thái lên ngôi; Minh Anh Tông trước đó đã bị Dã Tiên bắt."
     },
     {
         "claim_id": "claim_000844",
@@ -8498,17 +8471,6 @@
         "explanation": "Đoạn nguồn xác nhận vua Anh Tông băng hà vào thời điểm đó nhưng không đề cập đến địa điểm cụ thể nơi diễn a sự kiện."
     },
     {
-        "claim_id": "claim_000877",
-        "chunk_id": "019f17e7-3d8f-7ce8-90b5-abeb1a6ffbff",
-        "pages": [439],
-        "raw_text": "Mùa đông, tháng 10, nhà Minh sai chánh sứ là Thượng bảo tự khanh Tô Lâng Tín, phó sứ là bọn Hành nhân ty hành nhân Thiệu Chấn sang báo việ Hiến Tông lên ngôi và ban cho mũ áo, vóc lụa cùng sắc dụ.\nTháng 11, sai sứ sang nhà Minh: Phạm Bá Khuê dâng hương; Lê Hữu Trực, Dương Tông Hải, Phạm Khánh Dung mừng lên ngôi.\nLê Tông Vinh, Phạm Cừ, Trần Văn Chân tạ ơn ban vóc lụa.\nTháng 12, cấm các quan nhậm chức bên ngoài vô cớ về kinh đệ trình bản tâu.\nCó thánh chỉ rằng những tội nào còn ngờ thì xử giảm mức.\n",
-        "claim": "Vào tháng 12, triều đình ban hành lệnh cấm các quan lại đang làm việc tại địa phương tùy tiện trở về kinh thành để dâng sớ.",
-        "label": "SUPPORTED",
-        "claim_type": "POLITICAL_ADMINISTRATIVE",
-        "evidence_ids": ["019f17e7-3d8f-7ce8-90b5-abeb1a6ffbff"],
-        "explanation": "Nội dung này diễn đạt lại ý 'Tháng 12, cấm các quan nhậm chức bên ngoài vô cớ về kinh đệ trình bản tâu' tong nguồn."
-    },
-    {
         "claim_id": "claim_000879",
         "chunk_id": "019f17e7-3d8f-7ce8-90b5-abeb1a6ffbff",
         "pages": [439],
@@ -8519,7 +8481,17 @@
         "evidence_ids": ["019f17e7-3d8f-7ce8-90b5-abeb1a6ffbff"],
         "explanation": "Nguồn chỉ ghi 'Phạm Bá Khuê dâng hương' trong đoàn sứ sang nhà Minh, không xác định rõ Phạm Bá Khuê có giữ chức vụ chánh sứhay không."
     },
-
+    {
+        "claim_id": "claim_000877",
+        "chunk_id": "019f17e7-3d8f-7ce8-90b5-abeb1a6ffbff",
+        "pages": [439],
+        "raw_text": "Mùa đông, tháng 10, nhà Minh sai chánh sứ là Thượng bảo tự khanh Tô Lâng Tín, phó sứ là bọn Hành nhân ty hành nhân Thiệu Chấn sang báo việ Hiến Tông lên ngôi và ban cho mũ áo, vóc lụa cùng sắc dụ.\nTháng 11, sai sứ sang nhà Minh: Phạm Bá Khuê dâng hương; Lê Hữu Trực, Dương Tông Hải, Phạm Khánh Dung mừng lên ngôi.\nLê Tông Vinh, Phạm Cừ, Trần Văn Chân tạ ơn ban vóc lụa.\nTháng 12, cấm các quan nhậm chức bên ngoài vô cớ về kinh đệ trình bản tâu.\nCó thánh chỉ rằng những tội nào còn ngờ thì xử giảm mức.\n",
+        "claim": "Tháng 12, các quan nhậm chức bên ngoài được phép vô cớ về kinh đệ trình bản tâu.",
+        "label": "REFUTED",
+        "claim_type": "POLITICAL_ADMINISTRATIVE",
+        "evidence_ids": ["019f17e7-3d8f-7ce8-90b5-abeb1a6ffbff"],
+        "explanation": "Đoạn nguồn ghi tháng 12 có lệnh cấm các quan nhậm chức bên ngoài vô cớ về kinh đệ trình bản tâu."
+    },
     {
         "claim_id": "claim_000883",
         "chunk_id": "019f17e7-48b9-706a-957d-6929c66f8b32",
@@ -8576,17 +8548,38 @@
         "explanation": "Nguồn chỉ đề cập đến quy định thu hồi sắc mệnh, không đề cập đến kết quả tài chính hay tác động đến ngân khố riều đình."
     },
     {
+        "claim_id": "claim_000256",
+        "chunk_id": "019f17e2-d7fb-7ae4-a6d4-c09fef9c1032",
+        "pages": [129, 130],
+        "raw_text": "Tân Hợi, [Thiên Thuận] năm thứ 4 [1131], (Tống Thiệu Hưng năm thứ 1). Mùa xuân, tháng giêng, dựng hai gác ở trong điện Diên Hòa.\nTháng 2, Hoàng đệ là Tinh chết (con của Sùng Hiền hầu).\nMùa hạ, tháng 4, xuống chiếu cấm gia nô cuả các vương hầu, công chúa và các quan không được lấy con gái của các quan chức đô và bách tính.\nCấm con gái dân gian không được bắt chước kiểu búi đầu tóc như cung nhân.\nTháng 5, hạn, cầu đảo được mưa to.Chủ đô Nhiễm hoành là Hà Nhi dâng chim sẻ trắng.\nDựng nhà cho đại sư Minh Không.\n",
+        "claim": "Vào tháng 4 năm 1131, gia nô của các vương hầu, công chúa và các quan vẫn được phép lấy con gái của các quan chức đô và bách tính.",
+        "label": "REFUTED",
+        "claim_type": "POLITICAL_ADMINISTRATIVE",
+        "evidence_ids": ["019f17e2-d7fb-7ae4-a6d4-c09fef9c1032"],
+        "explanation": "Đoạn nguồn ghi rõ vào tháng 4 năm 1131 có chiếu cấm gia nô của các vương hầu, công chúa và các quan lấy con gái của các quan chức đô và bách tính, trái với claim cho rằng việc này vẫn được phép."
+    },
+    {
+        "claim_id": "claim_000466",
+        "chunk_id": "019f17e4-53b5-7613-a466-2b8d88adc2fb",
+        "pages": [232],
+        "raw_text": "Quý Hợi, [Đại Khánh] năm thứ 10 [1323], (Nguyên Chí Trị năm thứ 3). Mùa xuân, tháng 8, ngày 22, vua ngự đến nhà Thái học. Có tên Mặc trong quân Thiên thuộc ở Hoàng Giang đỗ khoa thi Thái học sinh, vua xuống chiếu bắt trở lại quân ngũ, làm quân lại quân Thiên đinh, đến khi thi đánh gậy, [Mặc] lại đỗ cao.\nBấy giờ tuyển chọn các quân, lấy người béo trắng làm hạng trên, cho nên quân sĩ không xăm mình nữa là bắt đầu từ đấy.\n",
+        "claim": "Vào năm 1323, việc lấy người béo trắng làm hạng trên khiến quân sĩ tiếp tục xăm mình như trước.",
+        "label": "REFUTED",
+        "claim_type": "POLITICAL_ADMINISTRATIVE",
+        "evidence_ids": ["019f17e4-53b5-7613-a466-2b8d88adc2fb"],
+        "explanation": "Đoạn nguồn cho biết việc lấy người béo trắng làm hạng trên dẫn đến việc quân sĩ không xăm mình nữa, trái với claim cho rằng quân sĩ tiếp tục xăm mình như trước."
+    },
+    {
         "claim_id": "claim_000889",
         "chunk_id": "019f17e7-5e87-7e01-9a11-b18e9a96235c",
         "pages": [446, 447],
         "raw_text": "Ngày 27, vua bắt đầu đến Lam Kinh bái yết lăng Lam Kinh.\nNgày 29, ngự giá đóng tại hành điện An Bạc. Ban phép tập trận đồ.Tháng 2, ngày Đinh Dậu mồng 1, có nhật thực.\nLàm lễ tế Văn miếu.\nNgày Giáp Thìn mồng 8, vua thấy trời đã lâu không mưa, tâu cáo để cầu. Lại sai bọn thái bảo Nguyễn Lôi làm lễ cầu đảo ở các đền Chí Linh, Hoằng Hựu.\nSai Hộ bộ thượng thư Trần Phong cùng bọn quan Tuyên chính Phan Sư Tông đi khám đất công ở hương Lam Sơn và thôn Dâm để cấp cho các công thần từ nhất phẩm đến lục, thất phẩm theo thứ bậc khác nhau. Lại dụ các quan và bô lão rằng:\n",
-        "claim": "Vào ngày mồng 1 tháng 2, hiện tượng nhật thực đã xảy ra.",
-        "label": "SUPPORTED",
+        "claim": "Vào ngày Đinh Dậu mồng 1 tháng 2, không xảy ra hiện tượng nhật thực.",
+        "label": "REFUTED",
         "claim_type": "NATURAL_OMEN_DISASTER",
         "evidence_ids": ["019f17e7-5e87-7e01-9a11-b18e9a96235c"],
-        "explanation": "Đoạn nguồn ghi rõ 'Tháng 2, ngày Đinh Dậu mồng 1, có nhật thực', claim diễn đạt lại thông tin này một cách hách quan."
+        "explanation": "Đoạn nguồn ghi rõ ngày Đinh Dậu mồng 1 tháng 2 có nhật thực, trực tiếp bác bỏ claim cho rằng hiện tượng này không xảy ra."
     },
-
     {
         "claim_id": "claim_000891",
         "chunk_id": "019f17e7-5e87-7e01-9a11-b18e9a96235c",
@@ -8659,11 +8652,11 @@
         "chunk_id": "019f17e7-5eb6-77e6-8b2f-e98b8f1ef48a",
         "pages": [448],
         "raw_text": "Chỉ huy sứ Đào Bảo tiến cử Hán Đình lên triều đình, nói chuyện vận Hán Đình và Thái chúc thừa Nguyễn Đức vốn giỏi binh pháp. Bọn Hán Đình dâng các trận đồ: 1) Trung hư; 2) Mãn thiên tinh, 3) Thường sơn xà... Vua khen ngợi, phong hai người làm Trấn điện phó tướng quân, sai quân 5 phủ tập theo trận đồ, hai ba lần đều không được. Vua sai hai người ra dạy cũng không được. Vua nổi giận sai bắt đánh trượng rồi bãi chức đuổi về bản quán.\n",
-        "claim": "Quá trình huấn luyện quân sĩ theo các trận đồ do Hán Đình và Nguyễn Đức đề xuất đã kéo dài trong vòng sáu tháng trước khi vua ra lệnh bãi chức.",
-        "label": "NOT_ENOUGH_EVIDENCE",
+        "claim": "Quân năm phủ tập theo các trận đồ của Hán Đình và Nguyễn Đức hai ba lần đều thành công.",
+        "label": "REFUTED",
         "claim_type": "MILITARY_DIPLOMACY",
         "evidence_ids": ["019f17e7-5eb6-77e6-8b2f-e98b8f1ef48a"],
-        "explanation": "Nguồn chỉ đề cập việc tập trận không thành công hai ba lần nhưng không cung cấp thông tin về khoảng thời gian cụ thể của quá trình uấn luyện."
+        "explanation": "Đoạn nguồn ghi quân năm phủ tập theo các trận đồ hai ba lần đều không được; khi Hán Đình và Nguyễn Đức trực tiếp ra dạy cũng không được."
     },
     {
         "claim_id": "claim_000898",
@@ -8815,13 +8808,12 @@
         "chunk_id": "019f17e7-89b9-7a52-b4f7-ddcb5c5f16a5",
         "pages": [458],
         "raw_text": "Tổng binh Lạng Sơn là Lê Luyện tâu rằng: Được tin Tổng binh Quảng Tây nhà Minh điều động 13 vạn binh mã, đóng tại châu Ngô, châu Tầm, nói phao là sửa sang cầu đường bắc qua khe suối dọc ven biển để tiến đánh giặc Man ở Liêm Châu và Tri huyện Bằng Tường tỉnh Quảng Tây [ 45b ] Lý Quảng Ninh nói dối là còn bận phòng bị ở cửa Nam Giao, chưa rồi để điều binh đi đánh giặc Man.\nVua sai triều thần họp bàn. Bọn Thái bảo Nguyễn Lỗi đều nói:\n\" Nên giữ kỹ của cải, mặc họ muốn làm gì thì làm, có sao đâu!\" Thi khoa Hành từ. Điểm gọi các quan vào thi, tất cả là 30 người.\n",
-        "claim": "Việc triều đình tổ chức thi khoa Hành từ diễn ra ngay sau khi nhận được tin báo từ Tổng binh Lạng Sơn Lê Luyện.",
-        "label": "NOT_ENOUGH_EVIDENCE",
+        "claim": "Có 20 người được gọi vào thi khoa Hành từ.",
+        "label": "REFUTED",
         "claim_type": "POLITICAL_ADMINISTRATIVE",
         "evidence_ids": ["019f17e7-89b9-7a52-b4f7-ddcb5c5f16a5"],
-        "explanation": "Đoạn nguồn có nhắc đến tin báo của Lê Luyện và việc thi khoa Hành từ, nhưng không xác nhận hai sự kiện này có mối quan hệ thời gian trực tiếphay không."
+        "explanation": "Đoạn nguồn ghi việc điểm gọi các quan vào thi khoa Hành từ có tất cả 30 người, không phải 20 người."
     },
-
     {
         "claim_id": "claim_000920",
         "chunk_id": "019f17e7-94e9-7ba8-b798-bf596987c72a",
@@ -8964,7 +8956,7 @@
         "chunk_id": "019f17e7-5e87-7e01-9a11-b18e9a96235c",
         "pages": [446, 447],
         "raw_text": "Ngày 27, vua bắt đầu đến Lam Kinh bái yết lăng Lam Kinh.\nNgày 29, ngự giá đóng tại hành điện An Bạc. Ban phép tập trận đồ.Tháng 2, ngày Đinh Dậu mồng 1, có nhật thực.\nLàm lễ tế Văn miếu.\nNgày Giáp Thìn mồng 8, vua thấy trời đã lâu không mưa, tâu cáo để cầu. Lại sai bọn thái bảo Nguyễn Lôi làm lễ cầu đảo ở các đền Chí Linh, Hoằng Hựu.\nSai Hộ bộ thượng thư Trần Phong cùng bọn quan Tuyên chính Phan Sư Tông đi khám đất công ở hương Lam Sơn và thôn Dâm để cấp cho các công thần từ nhất phẩm đến lục, thất phẩm theo thứ bậc khác nhau. Lại dụ các quan và bô lão rằng:\n",
-        "claim": "Thái bảo Nguyễn Lôi được sai làm lễ cầu đảo ở các đền Chí Linh và Hoằng Hựu.",
+        "claim": "Bọn thái bảo Nguyễn Lôi được sai làm lễ cầu đảo ở các đền Chí Linh và Hoằng Hựu.",
         "label": "SUPPORTED",
         "claim_type": "PERSON_ROLE",
         "evidence_ids": ["019f17e7-5e87-7e01-9a11-b18e9a96235c"],
@@ -9094,17 +9086,16 @@
         "evidence_ids": ["019f17e7-c52e-75f1-b1e0-eaa55c9c295c"],
         "explanation": "Nội dung này phản ánh trực tiếp quy tắc phong tước hầu được nêu trong đon sử liệu."
     },
-
     {
         "claim_id": "claim_000903",
         "chunk_id": "019f17e7-69d0-7fb3-a263-c8eeba65a47e",
         "pages": [451],
         "raw_text": "Ngày Giáp Tuất mồng 10, sai quân ngũ phủ làm kiểu mẫu đồ chiến khí, rồi lại đổi làm kiểu khác, quân nhân có người than oán. Quân nhân vệ Uy lôi là Văn Lư dâng sớ đại ý nói:\n\"Thần trộm thấy hồi tháng giêng năm nay bệ hạ đã ban ra kiểu mới, sai các quân chế tạo chiến khí, nay lại đổi làm kiểu khác, như thế là chính lệnh bất thường\".\n",
-        "claim": "Sau khi Văn Lư dâng sớ phê phán việc đổi kiểu mẫu chiến khí là chính lệnh bất thường, việc chế tạo kiểu mẫu chiến khí mới bị bãi bỏ ngay lập tức.",
-        "label": "NOT_ENOUGH_EVIDENCE",
+        "claim": "Văn Lư dâng sớ khẳng định việc đổi kiểu mẫu chiến khí không phải là chính lệnh bất thường.",
+        "label": "REFUTED",
         "claim_type": "POLITICAL_ADMINISTRATIVE",
         "evidence_ids": ["019f17e7-69d0-7fb3-a263-c8eeba65a47e"],
-        "explanation": "Đoạn sử liệu ghi quân nhân vệ Uy Lôi là Văn Lư dâng sớ nói rằng việc đã ban kiểu mới rồi lại đổi làm kiểu khác là chính lệnh bất thường. Tuy nhiên, đoạn này không nêu quyết định tiếp theo sau khi nhận sớ, nên không đủ bằng chứng để xác nhận hoặc bác bỏ việc chế tạo kiểu mẫu chiến khí mới bị bãi bỏ ngay lập tức."
+        "explanation": "Đoạn nguồn chép lời Văn Lư cho rằng việc đã ban kiểu mới rồi lại đổi làm kiểu khác là chính lệnh bất thường."
     },
     {
         "claim_id": "claim_000913",
@@ -9749,18 +9740,6 @@
         "evidence_ids": ["019f17e8-3f63-7c70-9638-0ab538f3656d"],
         "explanation": "Đoạn nguồn xác nhận sự kiện diễn ra tại điện Kính Thiên, việc thay đổi địa điểm thành điện Chí Kính làm sai lệch thông tin lịch sử."
     },
-
-    {
-        "claim_id": "claim_000955",
-        "chunk_id": "019f17e7-db2c-7fe9-b53a-7f55a85a9690",
-        "pages": [478],
-        "raw_text": "Tháng 2, vua ngự về Tây Kinh bái yết lăng miếu.\nVua đi thuyền nhẹ, ngược dòng sông Lỗi [1] bái yết Nguyên miếu ở thành Tây Đô. Sau đó, đến từ đường Thuần Mậu ở bên bờ sông (Từ đường này ở hương ấp của cha sinh ra thánh mẫu hoàng thái hậu Ngô thị và mẹ là Đinh thị) [2].\nNgày 20, có việc ở tẩm lăng, sai Công bộ thượng thư Phạm Du đến tế ở miếu Hoằng Hựu. Đến tối, trời mưa gió to.\nTháng 3, hạn hán, cầu đảo ở Thái miếu và sai quan đi cầu đảo khắp các thần, hai ngày thì mưa.\nMùa hạ, tháng 4, ngày mồng 3, mưa to.\n",
-        "claim": "Tháng 3, do hạn hán, có việc cầu đảo ở Thái miếu và sai quan đi cầu đảo khắp các thần; hai ngày sau thì mưa.",
-        "label": "SUPPORTED",
-        "claim_type": "NATURAL_OMEN_DISASTER",
-        "evidence_ids": ["019f17e7-db2c-7fe9-b53a-7f55a85a9690"],
-        "explanation": "Đoạn sử liệu ghi tháng 3 xảy ra hạn hán, sau đó có việc cầu đảo ở Thái miếu và sai quan đi cầu đảo khắp các thần; hai ngày thì mưa."
-    },
     {
         "claim_id": "claim_000957",
         "chunk_id": "019f17e7-db2c-7fe9-b53a-7f55a85a9690",
@@ -9771,6 +9750,17 @@
         "claim_type": "TIME_EVENT",
         "evidence_ids": ["019f17e7-db2c-7fe9-b53a-7f55a85a9690"],
         "explanation": "Đoạn sử liệu ghi tháng 2 có việc ngự về Tây Kinh, đi thuyền nhẹ ngược dòng sông Lỗi để bái yết Nguyên miếu ở thành Tây Đô. Tuy nhiên, đoạn này không nêu chuyến đi hay việc bái yết kéo dài bao lâu, nên không đủ bằng chứng để xác nhận hoặc bác bỏ chi tiết năm ngày."
+    },
+    {
+        "claim_id": "claim_000955",
+        "chunk_id": "019f17e7-db2c-7fe9-b53a-7f55a85a9690",
+        "pages": [478],
+        "raw_text": "Tháng 2, vua ngự về Tây Kinh bái yết lăng miếu.\nVua đi thuyền nhẹ, ngược dòng sông Lỗi [1] bái yết Nguyên miếu ở thành Tây Đô. Sau đó, đến từ đường Thuần Mậu ở bên bờ sông (Từ đường này ở hương ấp của cha sinh ra thánh mẫu hoàng thái hậu Ngô thị và mẹ là Đinh thị) [2].\nNgày 20, có việc ở tẩm lăng, sai Công bộ thượng thư Phạm Du đến tế ở miếu Hoằng Hựu. Đến tối, trời mưa gió to.\nTháng 3, hạn hán, cầu đảo ở Thái miếu và sai quan đi cầu đảo khắp các thần, hai ngày thì mưa.\nMùa hạ, tháng 4, ngày mồng 3, mưa to.\n",
+        "claim": "Tháng 3, sau khi cầu đảo ở Thái miếu và sai quan đi cầu đảo khắp các thần, năm ngày sau mới có mưa.",
+        "label": "REFUTED",
+        "claim_type": "NATURAL_OMEN_DISASTER",
+        "evidence_ids": ["019f17e7-db2c-7fe9-b53a-7f55a85a9690"],
+        "explanation": "Đoạn nguồn ghi sau khi cầu đảo ở Thái miếu và sai quan đi cầu đảo khắp các thần, hai ngày thì mưa, không phải năm ngày."
     },
     {
         "claim_id": "claim_000958",
@@ -10021,13 +10011,12 @@
         "chunk_id": "019f17e8-615e-7428-af81-101233c37fdf",
         "pages": [515],
         "raw_text": "Ngày mồng 4 là ngày kỵ của Thái Tông Hoàng Đế. Đêm hôm ấy, mưa gió to, nước lũ lên mạnh, trôi hết sản nghiệp của dân.\nTháng 9, lấy Đào Cử làm Hàn Lâm viện thị giảng Đông các học sĩ. Vua ban cho một bộ Thiên Nam dư hạ tập và cho họa lại một bài thơ Lương Giang dạ hứng, lại cho 25 quan tiền.\nNgày 23, sửa lại lệ làm bãi chăn ngựa và tàu nuôi ngựa.\n",
-        "claim": "Việc sửa đổi quy định về bãi chăn ngựa và tàu nuôi ngựa vào ngày 23 được thực hiện nhằm mục đích chuẩn bị cho các cuộc duyệt binh lớn.",
-        "label": "NOT_ENOUGH_EVIDENCE",
+        "claim": "Lệ làm bãi chăn ngựa và tàu nuôi ngựa được sửa lại vào ngày 25.",
+        "label": "REFUTED",
         "claim_type": "POLITICAL_ADMINISTRATIVE",
         "evidence_ids": ["019f17e8-615e-7428-af81-101233c37fdf"],
-        "explanation": "Nguồn xác nhận có việc sửa đổi lệ bãi chăn và tàu ngựa vào ngày 23, nhưng không đề cập đến mục đích phục vụ cho các cuộc duyệt binh."
+        "explanation": "Đoạn nguồn ghi việc sửa lại lệ làm bãi chăn ngựa và tàu nuôi ngựa diễn ra vào ngày 23, không phải ngày 25."
     },
-
     {
         "claim_id": "claim_001037",
         "chunk_id": "019f17e8-773a-7ae8-9d5d-b5e8e629f4a7",
@@ -10387,17 +10376,6 @@
         "explanation": "Nguồn xác nhận Đỗ Nhân đi sứ và trở về vào ngày 12 tháng 6, nhưng không đề cập đến tổng thời gian thực hiện chuyến đi sứ là bao lâu."
     },
     {
-        "claim_id": "claim_001078",
-        "chunk_id": "019f17e8-bd9c-72bb-99bf-d28e88d60a51",
-        "pages": [538],
-        "raw_text": "Ngày 18, sai Thái thường tự khanh Quách Hữu Nghiêm, Giám sát ngự sử Nguyễn Bỉnh Hoà, Cấp sự trung Trần Mậu Tài sang nhà Minh tạ ơn ban cho mũ áo.\nBấy giờ, hoàng hậu nhà Minh thấy sứ nước ta tới, sai quan thu nhận hòm rương vào nội điện để tìm thấy hương lạ. Quách Hữu Nghiêm vốn có mua được một chiếc áo long cổn là thứ hàng cấm giấu ở trong hòm, sợ người Minh bắt được sẽ bị quở trách,",
-        "claim": "Triều đình cử Quách Hữu Nghiêm, Nguyễn Bỉnh Hoà và Trần Mậu Tài làm sứ bộ sang nhà Minh để bày tỏ lòng biết ơn về việc được ban tặng mũ áo.",
-        "label": "SUPPORTED",
-        "claim_type": "MILITARY_DIPLOMACY",
-        "evidence_ids": ["019f17e8-bd9c-72bb-99bf-d28e88d60a51"],
-        "explanation": "Đoạn nguồn ghi rõ việc cử ba vị quan này sang nhà Minh với mục đích tạ ơn về việc ban mũ áo, claim đã diễn đạt lại ý này một cách khách quan."
-    },
-    {
         "claim_id": "claim_001080",
         "chunk_id": "019f17e8-bd9c-72bb-99bf-d28e88d60a51",
         "pages": [538],
@@ -10409,15 +10387,15 @@
         "explanation": "Nguồn xác nhận Quách Hữu Nghiêm giữ chức Thái thường tự khanh, nhưng không cung cấp thông tin về thời gian tại nhiệm của ông, đây là chi tiết mở rộng chưa được kiểm chứng."
     },
     {
-        "claim_id": "claim_001081",
-        "chunk_id": "019f17e8-c8b1-77e2-8b2f-ea902df52409",
-        "pages": [541],
-        "raw_text": "Tháng 6, ngày mồng 6, Trung quân đô đốc phủ tạ đô đốc Bình Sơn hầu Lê Quảng Độ, Nam quân đô đốc phủ tả đô đốc phò mã đô uý Lâm Hoài bá Lê Đạt Chiêu cùng các quan phò mã, các quan Ngũ phủ, Lục bộ, Đông các, Hàn lâm viện, Lục tự, khoa, đài đến điện Hoàng Cực rước thái tử Thuần lên ngôi.\nĐại xá, đổi niên hiệu, lấy năm này làm năm Thái Trinh thứ 1.\nHiến Tông ưa chuộng văn học, giữ vững cơ đồ, tiết kiệm tiêu dùng, thận trọng hình phạt, sửa chính sự, dùng người hiền, kính trời chăm dân, cũng là bậc vua hiền mà ở ngôi không lâu, tiếc thay!\n",
-        "claim": "Vào ngày mồng 6 tháng 6, các quan lại triều đình đã tổ chức lễ đăng quang cho thái tử Thuần tại điện Hoàng Cực.",
-        "label": "SUPPORTED",
-        "claim_type": "GENEALOGY_SUCCESSION",
-        "evidence_ids": ["019f17e8-c8b1-77e2-8b2f-ea902df52409"],
-        "explanation": "Đoạn nguồn ghi rõ ngày mồng 6 tháng 6, các quan (Trung quân, Nam quân, Ngũ phủ, Lục bộ...) đến điện Hoàng Cực rước thái tử Thuần lên ngôi."
+        "claim_id": "claim_001078",
+        "chunk_id": "019f17e8-bd9c-72bb-99bf-d28e88d60a51",
+        "pages": [538],
+        "raw_text": "Ngày 18, sai Thái thường tự khanh Quách Hữu Nghiêm, Giám sát ngự sử Nguyễn Bỉnh Hoà, Cấp sự trung Trần Mậu Tài sang nhà Minh tạ ơn ban cho mũ áo.\nBấy giờ, hoàng hậu nhà Minh thấy sứ nước ta tới, sai quan thu nhận hòm rương vào nội điện để tìm thấy hương lạ. Quách Hữu Nghiêm vốn có mua được một chiếc áo long cổn là thứ hàng cấm giấu ở trong hòm, sợ người Minh bắt được sẽ bị quở trách,",
+        "claim": "Ngày 18, Quách Hữu Nghiêm, Nguyễn Bỉnh Hoà và Trần Mậu Tài không được sai sang nhà Minh để tạ ơn việc ban mũ áo.",
+        "label": "REFUTED",
+        "claim_type": "MILITARY_DIPLOMACY",
+        "evidence_ids": ["019f17e8-bd9c-72bb-99bf-d28e88d60a51"],
+        "explanation": "Đoạn nguồn ghi rõ ngày 18, Quách Hữu Nghiêm, Nguyễn Bỉnh Hoà và Trần Mậu Tài được sai sang nhà Minh để tạ ơn việc ban mũ áo."
     },
     {
         "claim_id": "claim_001083",
@@ -10430,7 +10408,17 @@
         "evidence_ids": ["019f17e8-c8b1-77e2-8b2f-ea902df52409"],
         "explanation": "Đoạn nguồn chỉ nhận xét Hiến Tông là bậc vua hiền nhưng ở ngôi không lâu, không cung cấp con số cụ thể về thời gian trị vì."
     },
-
+    {
+        "claim_id": "claim_001081",
+        "chunk_id": "019f17e8-c8b1-77e2-8b2f-ea902df52409",
+        "pages": [541],
+        "raw_text": "Tháng 6, ngày mồng 6, Trung quân đô đốc phủ tạ đô đốc Bình Sơn hầu Lê Quảng Độ, Nam quân đô đốc phủ tả đô đốc phò mã đô uý Lâm Hoài bá Lê Đạt Chiêu cùng các quan phò mã, các quan Ngũ phủ, Lục bộ, Đông các, Hàn lâm viện, Lục tự, khoa, đài đến điện Hoàng Cực rước thái tử Thuần lên ngôi.\nĐại xá, đổi niên hiệu, lấy năm này làm năm Thái Trinh thứ 1.\nHiến Tông ưa chuộng văn học, giữ vững cơ đồ, tiết kiệm tiêu dùng, thận trọng hình phạt, sửa chính sự, dùng người hiền, kính trời chăm dân, cũng là bậc vua hiền mà ở ngôi không lâu, tiếc thay!\n",
+        "claim": "Thái tử Thuần được rước lên ngôi tại điện Hoàng Cực vào ngày mồng 7 tháng 6.",
+        "label": "REFUTED",
+        "claim_type": "GENEALOGY_SUCCESSION",
+        "evidence_ids": ["019f17e8-c8b1-77e2-8b2f-ea902df52409"],
+        "explanation": "Đoạn nguồn ghi các quan đến điện Hoàng Cực rước thái tử Thuần lên ngôi vào ngày mồng 6 tháng 6, không phải ngày mồng 7."
+    },
     {
         "claim_id": "claim_001087",
         "chunk_id": "019f17e8-d3e0-7835-817f-c067c36a88d1",
@@ -10922,19 +10910,28 @@
         "evidence_ids": ["019f17e9-17cc-7f9b-991b-c4e77e7e4570"],
         "explanation": "Nguồn ghi sứ giả gửi bạch bài về châu Bằng Tường, trong khi claim thay đổi địa điểm nhận tin thành kinh đô nhà Minh, tạo ra sự mâu thuẫn về địa điểm."
     },
-
+    {
+        "claim_id": "claim_001134",
+        "chunk_id": "019f17e9-2335-7c2b-87c9-13bd3735f3e3",
+        "pages": [566],
+        "raw_text": "Mùa hạ, tháng 6, ngày mồng 7, nước lũ, vỡ đê phường Yên Hoa [11] thông vào hồ Tây.\nLấy Hàn lâm viện kiểm thảo Nguyễn Mậu [12] làm Hiến sát sứ Thanh Hoa.\nVua thường sai người đi lấy hoa gạo. Mậu dâng sớ can, trái ý vua, vua sai trung sứ bắt đánh đòn.\nMùa thu, tháng 8, ngày 30, có sắc chỉ rằng: Các tuấn sĩ vệ Cẩm y, người nào bị sung quân thì khai lại để đuổi về nguyên quán theo như lệ.\n",
+        "claim": "Sắc chỉ ngày 30 tháng 8 về tuấn sĩ vệ Cẩm y giúp giải quyết tình trạng thiếu hụt nhân lực tại các địa phương.",
+        "label": "NOT_ENOUGH_EVIDENCE",
+        "claim_type": "POLITICAL_ADMINISTRATIVE",
+        "evidence_ids": ["019f17e9-2335-7c2b-87c9-13bd3735f3e3"],
+        "explanation": "Đoạn sử liệu ghi ngày 30 tháng 8 có sắc chỉ rằng các tuấn sĩ vệ Cẩm y bị sung quân thì khai lại để đuổi về nguyên quán theo lệ. Tuy nhiên, đoạn này không nêu mục đích hoặc hệ quả là giải quyết tình trạng thiếu hụt nhân lực tại địa phương, nên không đủ bằng chứng để xác nhận hoặc bác bỏ claim."
+    },
     {
         "claim_id": "claim_001132",
         "chunk_id": "019f17e9-2335-7c2b-87c9-13bd3735f3e3",
         "pages": [566],
         "raw_text": "Mùa hạ, tháng 6, ngày mồng 7, nước lũ, vỡ đê phường Yên Hoa [11] thông vào hồ Tây.\nLấy Hàn lâm viện kiểm thảo Nguyễn Mậu [12] làm Hiến sát sứ Thanh Hoa.\nVua thường sai người đi lấy hoa gạo. Mậu dâng sớ can, trái ý vua, vua sai trung sứ bắt đánh đòn.\nMùa thu, tháng 8, ngày 30, có sắc chỉ rằng: Các tuấn sĩ vệ Cẩm y, người nào bị sung quân thì khai lại để đuổi về nguyên quán theo như lệ.\n",
-        "claim": "Vào tháng 6 mùa hạ, đê ở phường Yên Hoa bị vỡ khiến nước tràn vào hồ Tây.",
-        "label": "SUPPORTED",
+        "claim": "Đê phường Yên Hoa bị vỡ vào ngày mồng 8 tháng 6.",
+        "label": "REFUTED",
         "claim_type": "NATURAL_OMEN_DISASTER",
         "evidence_ids": ["019f17e9-2335-7c2b-87c9-13bd3735f3e3"],
-        "explanation": "Thông tin này được trích xuất trực tiếp và diễn đạt lại từ câu đầu tiên của đoạn sử liệu."
+        "explanation": "Đoạn nguồn ghi đê phường Yên Hoa bị vỡ vào mùa hạ, ngày mồng 7 tháng 6, không phải ngày mồng 8."
     },
-
     {
         "claim_id": "claim_001135",
         "chunk_id": "019f17e9-2395-73e0-a7bd-91d226457ee5",
@@ -11095,11 +11092,11 @@
         "chunk_id": "019f17e9-455b-7e20-bd7c-f801f2c50799",
         "pages": [575],
         "raw_text": "Tháng 12 nhuận, giết tặc thần Lê Quảng Độ. Trước đây, Lê Quảng Độ đầu hàng Trần Cảo. Đến đây, bọn trấn tướng Hà Phi Chuẩn, Nguyễn Lỗ bắt được giải về Kinh sư. Mạc Đăng Dung dâng sớ xin giết đi, đại ý nói: \"Tam cương ngũ thường là rường cột chống đỡ trời đất, là trụ đá giữ yên sinh dân. Nước không có cương thường, dẫu là Hoa Hạ cũng thành Di Dịch, người không có cương thường, tuy mặc áo xiêm cũng hoá chim muông.",
-        "claim": "Lê Quảng Độ đã phục vụ dưới quyền Trần Cảo trong khoảng thời gian là 5 năm trước khi bị bắt giữ.",
-        "label": "NOT_ENOUGH_EVIDENCE",
-        "claim_type": "TIME_EVENT",
+        "claim": "Lê Quảng Độ bị Hà Phi Chuẩn và Nguyễn Lỗ bắt trước khi đầu hàng Trần Cảo.",
+        "label": "REFUTED",
+        "claim_type": "MILITARY_DIPLOMACY",
         "evidence_ids": ["019f17e9-455b-7e20-bd7c-f801f2c50799"],
-        "explanation": "Nguồn xác nhận Lê Quảng Độ đầu hàng Trần Cảo nhưng không đề cập đến thời gian cụ thể nhân vật này phục vụ cho Trần Cảo."
+        "explanation": "Đoạn nguồn ghi trước đây Lê Quảng Độ đầu hàng Trần Cảo; về sau mới bị Hà Phi Chuẩn và Nguyễn Lỗ bắt, giải về Kinh sư."
     },
     {
         "claim_id": "claim_001154",
@@ -11135,7 +11132,6 @@
         "evidence_ids": ["019f17e9-50bd-7150-905e-f29bf700c804"],
         "explanation": "Nguồn ghi rõ Trần Chân đánh bại giặc Cảo tại Đông Kinh chỉ trong hơn mười ngày, mâu thuẫn với thông tin 'hơn một tháng' trong claim."
     },
-
     {
         "claim_id": "claim_001159",
         "chunk_id": "019f17e9-5127-7f80-a99c-face28134dd8",
@@ -11511,18 +11507,6 @@
         "evidence_ids": ["019f17e9-a01d-7861-a5c2-ff18e0ec8b5a"],
         "explanation": "Đoạn nguồn ghi rõ năm Quý Mão (1543), Mạc sai sứ sang tuế cống nhà Minh. Claim diễn đạt lại sự kiện này một cách chính xác."
     },
-
-    {
-        "claim_id": "claim_001099",
-        "chunk_id": "019f17e8-eb34-7a47-ada1-40296030b684",
-        "pages": [551],
-        "raw_text": "Ngày 26, các dinh quân của Dinh đều tiến đến các xứ Bảo Đà, Nhân Mục, Hồng Mia, Thiêu Thân [3]. Vua ra cửa Thanh Dương uý lạo các lực sĩ điện Kim Quang và tướng sĩ các vệ Cẩm y và Kim ngô, đem kiếm ban cho bọn Trình Chí Sâm, Lê Quảng Độ, lấy vàng bạc tiền của ban cho tù nhân bị giam ở ty Ngũ hình mỗi người 3 quan, rồi sai đi đánh giặc.",
-        "claim": "Ngày 26, tù nhân bị giam ở ty Ngũ hình được ban mỗi người 3 quan trước khi được sai đi đánh giặc.",
-        "label": "SUPPORTED",
-        "claim_type": "PERSON_ROLE",
-        "evidence_ids": ["019f17e8-eb34-7a47-ada1-40296030b684"],
-        "explanation": "Đoạn sử liệu ghi ngày 26 có việc lấy vàng bạc tiền của ban cho tù nhân bị giam ở ty Ngũ hình mỗi người 3 quan, rồi sai đi đánh giặc."
-    },
     {
         "claim_id": "claim_001101",
         "chunk_id": "019f17e8-eb34-7a47-ada1-40296030b684",
@@ -11533,6 +11517,17 @@
         "claim_type": "POLITICAL_ADMINISTRATIVE",
         "evidence_ids": ["019f17e8-eb34-7a47-ada1-40296030b684"],
         "explanation": "Đoạn sử liệu ghi việc ban vàng bạc tiền của cho tù nhân bị giam ở ty Ngũ hình mỗi người 3 quan rồi sai đi đánh giặc. Tuy nhiên, đoạn này không nêu tình trạng ngân khố quốc gia, nên không đủ bằng chứng để xác nhận hoặc bác bỏ claim."
+    },
+    {
+        "claim_id": "claim_001099",
+        "chunk_id": "019f17e8-eb34-7a47-ada1-40296030b684",
+        "pages": [551],
+        "raw_text": "Ngày 26, các dinh quân của Dinh đều tiến đến các xứ Bảo Đà, Nhân Mục, Hồng Mia, Thiêu Thân [3]. Vua ra cửa Thanh Dương uý lạo các lực sĩ điện Kim Quang và tướng sĩ các vệ Cẩm y và Kim ngô, đem kiếm ban cho bọn Trình Chí Sâm, Lê Quảng Độ, lấy vàng bạc tiền của ban cho tù nhân bị giam ở ty Ngũ hình mỗi người 3 quan, rồi sai đi đánh giặc.",
+        "claim": "Ngày 26, mỗi tù nhân bị giam ở ty Ngũ hình được ban 5 quan trước khi bị sai đi đánh giặc.",
+        "label": "REFUTED",
+        "claim_type": "PERSON_ROLE",
+        "evidence_ids": ["019f17e8-eb34-7a47-ada1-40296030b684"],
+        "explanation": "Đoạn nguồn ghi mỗi tù nhân bị giam ở ty Ngũ hình được ban 3 quan rồi bị sai đi đánh giặc, không phải 5 quan."
     },
     {
         "claim_id": "claim_001103",
@@ -11579,17 +11574,6 @@
         "explanation": "Đoạn sử liệu ghi tháng 5 ngày 16 có việc sai Trịnh Duy Sản chỉ huy quan quân và Đỗ Nhạc làm Tán lý quân vụ đến Thanh Hoa, Nghệ An đánh dẹp quân giặc."
     },
     {
-        "claim_id": "claim_001126",
-        "chunk_id": "019f17e9-1798-722b-9484-63cf046cdc3d",
-        "pages": [562, 563],
-        "raw_text": "(Thành non, quách nước trải bao trung, Thơ mới vừa ngâm thấy quốc phong.Chớ bảo Nam bang riêng đất lánh, Còn kia Bắc đẩu khắp trời chung.\nGió xuân lồng lộng hoa đua múa, Trời sáng lâng lâng biển cùng đồng.\nNhớ lúc truyền ban lời thánh chỉ, Thái bình mọi chốn mãi mong cùng).\nBài thơ của vua tiễn Hy Tăng rằng:\nNhất tự [1] hồng vân giả án tiền, Sứ tinh quang thái chiếu Nam thiên.\nLễ quy nghĩa củ chu toàn tế, Hoà khí xuân phong tiếu ngữ biên.\nÂn chiếu phổ thi tân vũ lộ, Viêm phong vĩnh điện cựu sơn xuyên.\n",
-        "claim": "Có bài thơ của vua dùng để tiễn Hy Tăng.",
-        "label": "SUPPORTED",
-        "claim_type": "MILITARY_DIPLOMACY",
-        "evidence_ids": ["019f17e9-1798-722b-9484-63cf046cdc3d"],
-        "explanation": "Đoạn sử liệu ghi rõ phần mở đầu: “Bài thơ của vua tiễn Hy Tăng rằng”, sau đó chép nội dung bài thơ."
-    },
-    {
         "claim_id": "claim_001128",
         "chunk_id": "019f17e9-1798-722b-9484-63cf046cdc3d",
         "pages": [562, 563],
@@ -11599,6 +11583,17 @@
         "claim_type": "TIME_EVENT",
         "evidence_ids": ["019f17e9-1798-722b-9484-63cf046cdc3d"],
         "explanation": "Đoạn sử liệu xác nhận có bài thơ của vua tiễn Hy Tăng. Tuy nhiên, đoạn này không nêu có cuộc đàm phán kéo dài ba tháng hoặc bài thơ được viết trong thời gian đó, nên không đủ bằng chứng để xác nhận hoặc bác bỏ claim."
+    },
+    {
+        "claim_id": "claim_001126",
+        "chunk_id": "019f17e9-1798-722b-9484-63cf046cdc3d",
+        "pages": [562, 563],
+        "raw_text": "(Thành non, quách nước trải bao trung, Thơ mới vừa ngâm thấy quốc phong.Chớ bảo Nam bang riêng đất lánh, Còn kia Bắc đẩu khắp trời chung.\nGió xuân lồng lộng hoa đua múa, Trời sáng lâng lâng biển cùng đồng.\nNhớ lúc truyền ban lời thánh chỉ, Thái bình mọi chốn mãi mong cùng).\nBài thơ của vua tiễn Hy Tăng rằng:\nNhất tự [1] hồng vân giả án tiền, Sứ tinh quang thái chiếu Nam thiên.\nLễ quy nghĩa củ chu toàn tế, Hoà khí xuân phong tiếu ngữ biên.\nÂn chiếu phổ thi tân vũ lộ, Viêm phong vĩnh điện cựu sơn xuyên.\n",
+        "claim": "Bài thơ được chép không phải là bài thơ của vua dùng để tiễn Hy Tăng.",
+        "label": "REFUTED",
+        "claim_type": "MILITARY_DIPLOMACY",
+        "evidence_ids": ["019f17e9-1798-722b-9484-63cf046cdc3d"],
+        "explanation": "Đoạn nguồn giới thiệu trực tiếp đây là bài thơ của vua dùng để tiễn Hy Tăng."
     },
     {
         "claim_id": "claim_001129",
@@ -11803,17 +11798,6 @@
         "explanation": "Đoạn sử liệu ghi hôm ấy có việc ngự điện Quang Trị xem voi đấu nhau với hổ. Tuy nhiên, đoạn này không nêu thời lượng của hoạt động này, nên không đủ bằng chứng để xác nhận hoặc bác bỏ chi tiết kéo dài suốt cả ngày."
     },
     {
-        "claim_id": "claim_001134",
-        "chunk_id": "019f17e9-2335-7c2b-87c9-13bd3735f3e3",
-        "pages": [566],
-        "raw_text": "Mùa hạ, tháng 6, ngày mồng 7, nước lũ, vỡ đê phường Yên Hoa [11] thông vào hồ Tây.\nLấy Hàn lâm viện kiểm thảo Nguyễn Mậu [12] làm Hiến sát sứ Thanh Hoa.\nVua thường sai người đi lấy hoa gạo. Mậu dâng sớ can, trái ý vua, vua sai trung sứ bắt đánh đòn.\nMùa thu, tháng 8, ngày 30, có sắc chỉ rằng: Các tuấn sĩ vệ Cẩm y, người nào bị sung quân thì khai lại để đuổi về nguyên quán theo như lệ.\n",
-        "claim": "Sắc chỉ ngày 30 tháng 8 về tuấn sĩ vệ Cẩm y giúp giải quyết tình trạng thiếu hụt nhân lực tại các địa phương.",
-        "label": "NOT_ENOUGH_EVIDENCE",
-        "claim_type": "POLITICAL_ADMINISTRATIVE",
-        "evidence_ids": ["019f17e9-2335-7c2b-87c9-13bd3735f3e3"],
-        "explanation": "Đoạn sử liệu ghi ngày 30 tháng 8 có sắc chỉ rằng các tuấn sĩ vệ Cẩm y bị sung quân thì khai lại để đuổi về nguyên quán theo lệ. Tuy nhiên, đoạn này không nêu mục đích hoặc hệ quả là giải quyết tình trạng thiếu hụt nhân lực tại địa phương, nên không đủ bằng chứng để xác nhận hoặc bác bỏ claim."
-    },
-    {
         "claim_id": "claim_001138",
         "chunk_id": "019f17e9-2ee3-7f00-85b2-14c056fedbc7",
         "pages": [569, 570],
@@ -11885,22 +11869,11 @@
         "chunk_id": "019f17e9-d8f7-7019-acf1-7d4f122f67e8",
         "pages": [615],
         "raw_text": "Ngày 20, vua sai người làm cầu phao ở phía hạ lưu sông An Liệt [3], qua Kim Bôi. Vua cùng tả tướng đem đại binh qua sông, đến xã Kim Tử [4], đi tắt qua huyện Thuần Hựu [5] để tiến đánh các dinh quân Mạc. Sai Vũ Sư Thước chiêu tập quân cũ của huyện ấy, được hơn 1000 người, cho làm tiên phong khiêu chiến quân Mạc ở bến sông Lôi Tân [6]. Bọn Lại Thế Khanh và Lê Cập Đệ đánh Tống Sơn và Nga Sơn, lấy được, đi đến đâu quân Mạc tan chạy đến đó, nhân dân được trở về yên nghiệp.\n",
-        "claim": "Chiến dịch tiến đánh quân Mạc tại khu vực Tống Sơn và Nga Sơn của Lại Thế Khanh và Lê Cập Đệ kéo dài trong vòng một tháng.",
-        "label": "NOT_ENOUGH_EVIDENCE",
-        "claim_type": "TIME_EVENT",
-        "evidence_ids": ["019f17e9-d8f7-7019-acf1-7d4f122f67e8"],
-        "explanation": "Nguồn xác nhận sự kiện Lại Thế Khanh và Lê Cập Đệ đánh chiếm Tống Sơn và Nga Sơn, nhưng không cung cấp thông tin về thời gian kéo dài của chiến dịch này."
-    },
-    {
-        "claim_id": "claim_001231",
-        "chunk_id": "019f17e9-d92c-755d-95cb-6a98551f2751",
-        "pages": [616],
-        "raw_text": "Năm ấy, người huyện Khang Lộc, Thuận Hoá là Mỹ quận công [3] đem quân bản bộ mưu đánh Đoan quận công Nguyễn Hoàng, thôn tính quân lính của Hoàng rồi về hàng họ Mạc. Hoàng biết được, đem quân đánh giết chết. Đất Thuận Hoá tạm yên. Sau các thổ tướng ở Quảng Nam đánh giết, thôn tính lẫn nhau, Hoàng đều đánh dẹp được cả, giao cho tỳ tướng là Dũng quận công [4] ở lại giữ đất và thu nhặt quân lính còn sót lại.\n",
-        "claim": "Nguyễn Hoàng đã tiêu diệt Mỹ quận công sau khi phát hiện âm mưu thôn tính quân đội của mình.",
-        "label": "SUPPORTED",
+        "claim": "Lại Thế Khanh và Lê Cập Đệ không lấy được Tống Sơn và Nga Sơn.",
+        "label": "REFUTED",
         "claim_type": "MILITARY_DIPLOMACY",
-        "evidence_ids": ["019f17e9-d92c-755d-95cb-6a98551f2751"],
-        "explanation": "Đoạn nguồn ghi rõ Mỹ quận công mưu đánh Nguyễn Hoàng để thôn tính quân lính, Hoàng biết được nên đã đem quân đánh giết."
+        "evidence_ids": ["019f17e9-d8f7-7019-acf1-7d4f122f67e8"],
+        "explanation": "Đoạn nguồn ghi Lại Thế Khanh và Lê Cập Đệ đánh Tống Sơn và Nga Sơn, lấy được cả hai nơi."
     },
     {
         "claim_id": "claim_001233",
@@ -11912,6 +11885,17 @@
         "claim_type": "TIME_EVENT",
         "evidence_ids": ["019f17e9-d92c-755d-95cb-6a98551f2751"],
         "explanation": "Nguồn xác nhận sự kiện Mỹ quận công mưu đánh Nguyễn Hoàng và bị giết, nhưng không đề cập đến thời gian cụ thể của cuộc giao tranh."
+    },
+    {
+        "claim_id": "claim_001231",
+        "chunk_id": "019f17e9-d92c-755d-95cb-6a98551f2751",
+        "pages": [616],
+        "raw_text": "Năm ấy, người huyện Khang Lộc, Thuận Hoá là Mỹ quận công [3] đem quân bản bộ mưu đánh Đoan quận công Nguyễn Hoàng, thôn tính quân lính của Hoàng rồi về hàng họ Mạc. Hoàng biết được, đem quân đánh giết chết. Đất Thuận Hoá tạm yên. Sau các thổ tướng ở Quảng Nam đánh giết, thôn tính lẫn nhau, Hoàng đều đánh dẹp được cả, giao cho tỳ tướng là Dũng quận công [4] ở lại giữ đất và thu nhặt quân lính còn sót lại.\n",
+        "claim": "Mỹ quận công đánh giết Nguyễn Hoàng sau khi mưu thôn tính quân lính của Hoàng.",
+        "label": "REFUTED",
+        "claim_type": "MILITARY_DIPLOMACY",
+        "evidence_ids": ["019f17e9-d92c-755d-95cb-6a98551f2751"],
+        "explanation": "Đoạn nguồn ghi Nguyễn Hoàng biết âm mưu của Mỹ quận công nên đem quân đánh giết Mỹ quận công, không phải Mỹ quận công đánh giết Nguyễn Hoàng."
     },
     {
         "claim_id": "claim_001235",
@@ -12707,17 +12691,6 @@
         "explanation": "Sử liệu có nhắc đến việc Bình An Vương bàn việc đánh dẹp sau khi Nguyễn Hoàng mưu phản, nhưng không cung cấp thông tin về thời gian cụ thể để dập tắt cuộc nổi loạn này."
     },
     {
-        "claim_id": "claim_001312",
-        "chunk_id": "019f17ea-77e1-7ced-9d44-694ab54eb8b7",
-        "pages": [657],
-        "raw_text": "Mùa thu, tháng 7, Kính Cung khởi hành từ cửa quan, đến Thị Cầu, huyện Vũ Ninh, bọn Ngô Đình Nga đều đem quân huyện mình ra đón. Kính Cung đều cho giữ chức cũ. Thế rồi, quan viên tướng sĩ trong nước cùng rước Kính Cung tới Kinh sư.\nBấy giờ, vua ở Thanh Hoa, lưu Trấn quận công Trịnh Lân ở lại hộ giá, sai Thượng phụ Bình An Vương đem quân ra đóng ở xứ Bái Đính.",
-        "claim": "Kính Cung đã giữ nguyên chức vụ cho các quan viên huyện Vũ Ninh khi họ ra đón ông tại Thị Cầu.",
-        "label": "SUPPORTED",
-        "claim_type": "PERSON_ROLE",
-        "evidence_ids": ["019f17ea-77e1-7ced-9d44-694ab54eb8b7"],
-        "explanation": "Đoạn nguồn ghi rõ Kính Cung đến Thị Cầu, bọn Ngô Đình Nga đem quân huyện ra đón và Kính Cung cho họ giữ chức cũ."
-    },
-    {
         "claim_id": "claim_001314",
         "chunk_id": "019f17ea-77e1-7ced-9d44-694ab54eb8b7",
         "pages": [657],
@@ -12727,6 +12700,17 @@
         "claim_type": "MILITARY_DIPLOMACY",
         "evidence_ids": ["019f17ea-77e1-7ced-9d44-694ab54eb8b7"],
         "explanation": "Nguồn xác nhận Bình An Vương đóng quân ở Bái Đính nhưng không đề cập đến thời gian cụ thể của sự kiện này."
+    },
+    {
+        "claim_id": "claim_001312",
+        "chunk_id": "019f17ea-77e1-7ced-9d44-694ab54eb8b7",
+        "pages": [657],
+        "raw_text": "Mùa thu, tháng 7, Kính Cung khởi hành từ cửa quan, đến Thị Cầu, huyện Vũ Ninh, bọn Ngô Đình Nga đều đem quân huyện mình ra đón. Kính Cung đều cho giữ chức cũ. Thế rồi, quan viên tướng sĩ trong nước cùng rước Kính Cung tới Kinh sư.\nBấy giờ, vua ở Thanh Hoa, lưu Trấn quận công Trịnh Lân ở lại hộ giá, sai Thượng phụ Bình An Vương đem quân ra đóng ở xứ Bái Đính.",
+        "claim": "Kính Cung bãi chức bọn Ngô Đình Nga sau khi họ đem quân huyện mình ra đón tại Thị Cầu.",
+        "label": "REFUTED",
+        "claim_type": "PERSON_ROLE",
+        "evidence_ids": ["019f17ea-77e1-7ced-9d44-694ab54eb8b7"],
+        "explanation": "Đoạn nguồn ghi khi bọn Ngô Đình Nga đem quân huyện mình ra đón tại Thị Cầu, Kính Cung cho họ giữ chức cũ, không phải bãi chức."
     },
     {
         "claim_id": "claim_001315",
@@ -12977,11 +12961,11 @@
         "chunk_id": "019f17e9-fac8-7513-ab27-e46badc5622f",
         "pages": [623, 624],
         "raw_text": " Kính Giản phong Huệ Thành công Chiêu vũ vệ chưởng vệ sự, Kính Tuân phong Dũng Nghĩa công, Triều đông vệ chưởng vệ sự, Kính Thận phong Đạt Lễ công, Kính Cung phong ĐônHậu công, Kính Thể phong Khuông Phụ công, Kính Bang chưa được phong. Con gái 9 người: con trưởng là Ngọc Thụ phong Lương quận thượng chúa, con thứ là Ngọc Quán phong Nghi quận thượng chúa, Ngọc Tỷ phong An quận thượng chúa, Ngọc Diễm phong Dương quận thượng chúa, duy có con gái bé 3 tuổi chưa được phong. Con gái nuôi là Ngọc Uyển phong Tiên quận thượng chúa.\n",
-        "claim": "Kính Giản, Kính Tuân, Kính Thận, Kính Cung và Kính Thể đều được phong tước công.",
-        "label": "SUPPORTED",
+        "claim": "Kính Bang đã được phong tước công cùng với Kính Giản, Kính Tuân, Kính Thận, Kính Cung và Kính Thể.",
+        "label": "REFUTED",
         "claim_type": "PERSON_ROLE",
         "evidence_ids": ["019f17e9-fac8-7513-ab27-e46badc5622f"],
-        "explanation": "Đoạn sử liệu ghi Kính Giản được phong Huệ Thành công, Kính Tuân phong Dũng Nghĩa công, Kính Thận phong Đạt Lễ công, Kính Cung phong Đôn Hậu công và Kính Thể phong Khuông Phụ công."
+        "explanation": "Đoạn nguồn ghi Kính Giản, Kính Tuân, Kính Thận, Kính Cung và Kính Thể đều được phong tước công, nhưng Kính Bang chưa được phong."
     },
     {
         "claim_id": "claim_001249",
@@ -13362,11 +13346,11 @@
         "chunk_id": "019f17ea-de36-7eea-97ba-62846766a27b",
         "pages": [684, 685],
         "raw_text": " Ngày 19, đánh nhau to với giặc ở đất Thiên Lộc, ba quân cố sức tranh lên trước, bọn giặc thấy bóng là vỡ chạy. Ta chém thủ cấp giặc, bắt sống binh sĩ giặc, thu được voi ngựa, khí giới của giặc dâng trước cửa quân nhiều không kể xiết. Hiện nay đương đem đại binh thẳng tiến, thừa thắng ruổi dài, xin tâu trước tin thắng trận.Tin thắng trận đưa về, Vương mừng lắm, tâu cho vua biết. Các quan đều vào chầu mừng.\n",
-        "claim": "Trận đánh lớn giữa quân ta và giặc tại đất Thiên Lộc diễn ra vào ngày 19 tháng Giêng.",
-        "label": "NOT_ENOUGH_EVIDENCE",
-        "claim_type": "TIME_EVENT",
+        "claim": "Ngày 19, quân ta bị giặc đánh tan ở đất Thiên Lộc.",
+        "label": "REFUTED",
+        "claim_type": "MILITARY_DIPLOMACY",
         "evidence_ids": ["019f17ea-de36-7eea-97ba-62846766a27b"],
-        "explanation": "Nguồn chỉ ghi 'Ngày 19' mà không nêu rõ tháng hay năm cụ thể, do đó không đủ thông tin để xác nhận đây là ngày 19 tháng Giêng."
+        "explanation": "Đoạn nguồn ghi ngày 19, quân ta đánh nhau với giặc ở đất Thiên Lộc và bọn giặc thấy bóng thì vỡ chạy; quân ta chém, bắt quân giặc và thu được nhiều voi ngựa, khí giới."
     },
     {
         "claim_id": "claim_001369",
@@ -13472,11 +13456,11 @@
         "chunk_id": "019f17ea-e955-7756-b3ac-9c4acb9f6844",
         "pages": [688],
         "raw_text": "Tháng 2, lấy Hồ Sĩ Dương làm Đông các đại học sĩ, thăng tước tử, Nguyễn Danh Thực thăng tước nam, Nguyễn Đình Chính thăng tước tử, vì có công lên cửa quan tiếp nhận sắc dụ và bạc lụa của Bắc triều ban thưởng.\nSai bọn Hồ Sĩ Dương, Nguyễn Danh Thực, Nguyễn Đình Chính lên cửa quan đợi mệnh.\nTặng đô đốc đồng tri Thao quận công Mạc Kính Môn làm tả đô đốc. Kính Môn là họ hàng nguỵ Mạc, trước đã đổi lòng quy thuận, được phong chức tước rồi lại trốn về Cao Bằng, sau lại về làm tôi dưới cửa khuyết. Vương đức lớn bao la, lại bao dung trọng đãi. Đến đây chết, lại được tặng.\n",
-        "claim": "Hồ Sĩ Dương đã giữ chức Đông các đại học sĩ trong thời gian ba năm trước khi được thăng tước tử.",
-        "label": "NOT_ENOUGH_EVIDENCE",
+        "claim": "Hồ Sĩ Dương được lấy làm Đông các đại học sĩ nhưng không được thăng tước tử.",
+        "label": "REFUTED",
         "claim_type": "PERSON_ROLE",
         "evidence_ids": ["019f17ea-e955-7756-b3ac-9c4acb9f6844"],
-        "explanation": "Nguồn xác nhận Hồ Sĩ Dương được thăng tước tử và giữ chức Đông các đại học sĩ, nhưng không cung cấp thông tin về thời gian ông tại vị trước đó."
+        "explanation": "Đoạn nguồn ghi tháng 2, Hồ Sĩ Dương được lấy làm Đông các đại học sĩ và được thăng tước tử."
     },
     {
         "claim_id": "claim_001381",
@@ -13659,11 +13643,11 @@
         "chunk_id": "019f17eb-0cf0-742b-be87-e7d5bfeb620a",
         "pages": [698],
         "raw_text": " Từ đấy về sau theo đó làm thường lệ.\nMùa hạ, tháng 4, ngày mồng 1, có nhật thực, mặt trời bị che hết.\nNăm ấy hạn.\nTháng 5, Thái bộc tự khanh Lệ Hải tử Vũ Vinh Tiến chết.\nKhi ấy, Vinh Tiến vâng mệnh làm đốc trấn Cao Bằng, gặp nhà Thanh sai sứ sang tuyên chỉ dụ đem bốn châu ở Cao Bằng trả lại cho họ Mạc, bèn trở về Kinh sư, về đến nửa đường thì ốm chết, tặng Binh bộ hữu thị lang, tước bá, sai quan tới phúng tế.\n",
-        "claim": "Vũ Vinh Tiến đã giữ chức vụ đốc trấn Cao Bằng trong khoảng thời gian kéo dài 2 năm trước khi qua đời.",
-        "label": "NOT_ENOUGH_EVIDENCE",
+        "claim": "Vũ Vinh Tiến đã giữ chức Binh bộ hữu thị lang khi còn sống.",
+        "label": "REFUTED",
         "claim_type": "PERSON_ROLE",
         "evidence_ids": ["019f17eb-0cf0-742b-be87-e7d5bfeb620a"],
-        "explanation": "Nguồn xác nhận Vũ Vinh Tiến làm đốc trấn Cao Bằng, nhưng không cung cấp thông tin về thời gian tại nhiệm cụ thể là bao lâu."
+        "explanation": "Đoạn nguồn ghi Vũ Vinh Tiến chết trên đường trở về Kinh sư, sau đó mới được tặng chức Binh bộ hữu thị lang."
     },
     {
         "claim_id": "claim_001399",
