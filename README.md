@@ -1,7 +1,5 @@
 
-# ViHistFact
-
-ViHistFact nghiên cứu bài toán **kiểm chứng phát biểu lịch sử tiếng Việt dựa trên truy xuất bằng chứng và mô hình ngôn ngữ lớn**, sử dụng *Đại Việt Sử Ký Toàn Thư* làm kho sử liệu.
+Nghiên cứu bài toán **kiểm chứng phát biểu lịch sử tiếng Việt dựa trên truy xuất bằng chứng và mô hình ngôn ngữ lớn**, sử dụng *Đại Việt Sử Ký Toàn Thư* làm kho sử liệu.
 Dự án xây dựng bộ dữ liệu gồm 1.311 phát biểu được kiểm chứng thủ công theo ba nhãn `SUPPORTED`, `REFUTED` và `NOT_ENOUGH_EVIDENCE`, đồng thời đánh giá khả năng truy xuất, xác minh và hiệu quả end-to-end của hệ thống.
 Nghiên cứu còn phân tích điểm nghẽn và lỗi theo loại phát biểu nhằm xác định hạn chế đến từ bước retrieval, verifier hay bản chất của dữ liệu lịch sử.
 
@@ -18,16 +16,11 @@ Sinh claim bằng LLM → duyệt thủ công
     ↓
 Chia tập dev/test theo chunk
     ↓
-BM25 / Dense / Hybrid / Reranker
-    ↓
 Đánh giá retrieval, claim verification, end to end 
 ```
 
 ## Dataset và corpus
-
-- Thư mục `copus/` (tên thư mục hiện có trong repository) chứa PDF gốc, văn bản đã trích xuất và các phiên bản corpus đã chia chunk; bản đầy đủ hiện có 5.343 chunk.
-- Thư mục `dataset/` chứa chunk đầu vào, bản claim chờ duyệt, bộ dữ liệu cuối cùng và tệp thống kê quá trình duyệt.
-- `final_dataset.json` gồm 1.311 claim: 460 `SUPPORTED`, 396 `REFUTED` và 455 `NOT_ENOUGH_EVIDENCE`.
+https://www.kaggle.com/datasets/lanthanhvi/vihisdataset
 
 ## Notebook
 
@@ -51,17 +44,17 @@ Các notebook được xây dựng để chạy chủ yếu trên **Google Colab
 - Qdrant URL/API key cho dense retrieval;
 - quyền tải model từ Hugging Face.
 
-Một số notebook đang sử dụng đường dẫn tuyệt đối dạng `/content/...` hoặc `/kaggle/...`. Hãy sửa các biến cấu hình đầu notebook để trỏ tới vị trí dữ liệu trong môi trường của bạn trước khi chạy.
 
 ## Cách chạy
 
-1. Chạy `pdf_json.ipynb` để chuyển PDF trong `copus/` thành dữ liệu JSON theo trang.
+1. Chạy `pdf_json.ipynb` để chuyển PDF trong bộ sử liệu thành dữ liệu JSON theo trang.
 2. Chạy `Chunking.ipynb` để tạo corpus chunk và đưa vector lên Qdrant.
 3. Chuẩn bị `dataset/input_chunks.json`, sau đó chạy `build_dataset.ipynb` để tạo bản nháp claim.
 4. Kiểm duyệt trường `human_review`, lọc các mẫu được chấp nhận thành `dataset/final_dataset.json`.
 5. Chạy `split_data.ipynb` để tạo tập dev/test ở cả định dạng JSON và JSONL.
 6. Chạy `run_retrieval_outputs.ipynb` riêng cho dev và test; dùng `retrieval_evaluation.ipynb` để chọn cấu hình retrieval.
 7. Chạy `verification-evaluation.ipynb` để đo Accuracy, Macro-F1, confusion matrix và kết quả theo từng loại claim.
+8. 
 
 Các bước sau phụ thuộc vào output của bước trước. Trước mỗi lần chạy, cần kiểm tra lại đường dẫn dữ liệu, tên Qdrant collection, model và chế độ `dev`/`test` trong phần cấu hình của notebook tương ứng.
 
